@@ -4,7 +4,7 @@
         <title>Nathaniel Vaur Henel Blog</title>
         <link>https://nathaniel-vaur-henel.github.io/blog</link>
         <description>Nathaniel Vaur Henel Blog</description>
-        <lastBuildDate>Tue, 11 Jul 2023 21:54:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jul 2023 22:05:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,7 +13,7 @@
             <title><![CDATA[Ceci n'est pas un post]]></title>
             <link>https://nathaniel-vaur-henel.github.io/blog/not-post</link>
             <guid>https://nathaniel-vaur-henel.github.io/blog/not-post</guid>
-            <pubDate>Tue, 11 Jul 2023 21:54:51 GMT</pubDate>
+            <pubDate>Tue, 11 Jul 2023 22:05:39 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
             <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
             <category>hola</category>
