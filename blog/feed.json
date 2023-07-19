@@ -5,12 +5,12 @@
     "description": "Nathaniel Vaur Henel Blog",
     "items": [
         {
-            "id": "https://nathaniel-vaur-henel.github.io/blog/not-post",
+            "id": "https://nathaniel-vaur-henel.github.io/blog/index",
             "content_html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>",
-            "url": "https://nathaniel-vaur-henel.github.io/blog/not-post",
+            "url": "https://nathaniel-vaur-henel.github.io/blog/index",
             "title": "Ceci n'est pas un post",
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date_modified": "2023-07-11T22:15:49.000Z",
+            "date_modified": "2023-07-19T06:48:22.000Z",
             "author": {
                 "name": "Nathaniel Vaur Henel",
                 "url": "https://github.com/Nathaniel-Vaur-Henel"
