@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nathaniel-vaur-henel.github.io/blog</id>
     <title>Nathaniel Vaur Henel Blog</title>
-    <updated>2023-07-19T06:48:22.000Z</updated>
+    <updated>2023-07-21T11:20:52.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nathaniel-vaur-henel.github.io/blog"/>
     <subtitle>Nathaniel Vaur Henel Blog</subtitle>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[Ceci n'est pas un post]]></title>
         <id>https://nathaniel-vaur-henel.github.io/blog/index</id>
         <link href="https://nathaniel-vaur-henel.github.io/blog/index"/>
-        <updated>2023-07-19T06:48:22.000Z</updated>
+        <updated>2023-07-21T11:20:52.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
         <author>
