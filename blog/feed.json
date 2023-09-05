@@ -1,8 +1,8 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Nathaniel Vaur Henel Blog",
+    "title": "Le site de Nathaniel Vaur Henel Blog",
     "home_page_url": "https://nathaniel-vaur-henel.github.io/blog",
-    "description": "Nathaniel Vaur Henel Blog",
+    "description": "Le site de Nathaniel Vaur Henel Blog",
     "items": [
         {
             "id": "https://nathaniel-vaur-henel.github.io/blog/index",
@@ -10,7 +10,7 @@
             "url": "https://nathaniel-vaur-henel.github.io/blog/index",
             "title": "Ceci n'est pas un post",
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date_modified": "2023-07-21T11:20:52.000Z",
+            "date_modified": "2023-09-05T21:01:02.000Z",
             "author": {
                 "name": "Nathaniel Vaur Henel",
                 "url": "https://github.com/Nathaniel-Vaur-Henel"
