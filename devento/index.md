@@ -1,6 +1,6 @@
 ---
 title: Introduction
-sidebar_position: 1
+sidebar_position: 0
 # pour ajouter des tags à la page
 tags:
   - devento
