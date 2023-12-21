@@ -39,7 +39,7 @@ Ainsi est né le projet Devento.
 
 La doc, c'est la base, et moi, j'adore ça. Mais pendant mes longues années de dév, je me suis bien rendu compte que ce n'était pas franchement la tasse de thé de tous mes collègues.
 J'en ai passé des heures (des jours ? des semaines ?) à ÊTRE la doc.
-"Hé Nath, comment on fait ci... et ça..."
+"Hé Nath, comment on fait ci... comment on fait ça..."
 
 Pourtant...
 
@@ -96,6 +96,4 @@ Si tu as des idées de nouveaux sujets, n'hésite à passer sur le [github](http
 
 Si tu te mets à écrire tes propres Deventos, tu peux les partager avec la communauté ! N'hésite pas à me contacter ;)
 
-xxx rajouter point open source
-
-xxx rajouter une conclusion
+Devento est de plus un projet open source. J'y tiens !
