@@ -180,8 +180,8 @@ Comme indiqué au fur et à mesure, les [Release Notes](https://www.oracle.com/j
 
 ### Auteurs
 
-[Nathaniel Vaur Henel](/docs/index#nathaniel-vaur-henel)
+Nathaniel Vaur Henel
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](/docs/index#nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par Nathaniel Vaur Henel sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
