@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[2442],{4246:e=>{e.exports=JSON.parse('{"label":"aide-m\xe9moire","permalink":"/docs/tags/aide-memoire","allTagsPath":"/docs/tags","count":1,"items":[{"id":"index","title":"Introduction","description":"blablabla","permalink":"/docs/"}],"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[5077],{7691:e=>{e.exports=JSON.parse('{"label":"devento","permalink":"/docs/tags/devento","allTagsPath":"/docs/tags","count":1,"items":[{"id":"index","title":"Introduction","description":"blablabla","permalink":"/docs/"}],"unlisted":false}')}}]);

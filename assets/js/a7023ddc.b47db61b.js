@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[713],{3457:l=>{l.exports=JSON.parse('[{"label":"hola","permalink":"/blog/tags/hola","count":1},{"label":"blog","permalink":"/blog/tags/blog","count":1}]')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[5683],{7675:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"dev-workout"}')}}]);
