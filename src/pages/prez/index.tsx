@@ -16,7 +16,7 @@ function HomepageHeader() {
               <Link
                 className="button button--lg"
                 target="_blank"
-                to="prezA.html"
+                to="/prez/prezA.html"
               >
                 prezA
               </Link>
@@ -25,7 +25,7 @@ function HomepageHeader() {
               <Link
                 className="button button--lg"
                 target="_blank"
-                to="prezB.html"
+                to="/prez/prezB.html"
               >
                 prezB
               </Link>

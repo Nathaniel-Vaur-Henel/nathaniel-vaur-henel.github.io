@@ -16,7 +16,7 @@ const config = {
   title: "Nathaniel Vaur Henel, ton dév sensei",
   tagline: "Deux décennies d'expérience pour t'aider à maîtriser ton dév",
 
-  favicon: "img/logo-papash.png",
+  favicon: "img/logo.png",
 
   // Set the production url of your site here
   url: "https://nathaniel-vaur-henel.github.io/",
@@ -31,7 +31,7 @@ const config = {
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -53,7 +53,7 @@ const config = {
         blog: {
           showReadingTime: true,
           blogTitle: "Mon blog de dév",
-          blogDescription: "Des trucs et des machins",
+          blogDescription: "Le blog de Nathaniel Vaur Henel, ton dév sensei",
           blogSidebarCount: 50,
           feedOptions: {
             type: "all",
@@ -91,12 +91,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/logo-papash.png",
+      image: "img/logo.png",
       navbar: {
         title: "Nathaniel Vaur Henel",
         logo: {
           alt: "nvh",
-          src: "img/logo-papash.png",
+          src: "img/logo.png",
         },
         items: [
           {

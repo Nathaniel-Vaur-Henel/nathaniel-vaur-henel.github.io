@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
         descriptifs techniques courts assortis de leurs fiches aide-mémoire.
       </>
     ),
-    to: "/docs/index",
+    to: "/docs",
     toLabel: "Je veux trouver un Devento",
   },
   {
