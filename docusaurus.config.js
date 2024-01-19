@@ -105,7 +105,7 @@ const config = {
             position: "left",
             label: "Devento",
           },
-          { to: "/dev-workout/index", label: "Dév Workout", position: "left" },
+          { to: "/dev-workout", label: "Dév Workout", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/docs/tags", label: "Tags", position: "right" },
           {

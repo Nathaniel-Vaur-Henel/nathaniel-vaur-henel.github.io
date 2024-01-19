@@ -10,7 +10,7 @@ export default function NewsletterComponent() {
   return (
     <Popup
       trigger={
-        <Link className="button button--secondary button--lg wrap-words">
+        <Link className="wrapWords button button--secondary button--lg">
           {siteConfig.customFields.callToArms}
         </Link>
       }
