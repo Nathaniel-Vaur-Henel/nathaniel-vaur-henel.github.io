@@ -28,3 +28,8 @@
   --ifm-color-primary-lightest: #dd4f4f;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.wrapWords {
+  white-space: normal;
+  overflow-wrap: break-word;
+}

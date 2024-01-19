@@ -78,7 +78,7 @@ function Feature({
       </div>
       <div>
         <Link
-          className="button button--secondary button--lg wrap-words"
+          className="wrapWords button button--secondary button--lg"
           to={useBaseUrl(to)}
         >
           {toLabel}
