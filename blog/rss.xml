@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Nathaniel Vaur Henel, ton dév sensei Blog</title>
+        <link>https://nathaniel-vaur-henel.github.io/blog</link>
+        <description>Nathaniel Vaur Henel, ton dév sensei Blog</description>
+        <lastBuildDate>Tue, 18 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <copyright>Copyright © 2024 Nathaniel Vaur Henel</copyright>
+        <item>
+            <title><![CDATA[Ceci n'est pas un post]]></title>
+            <link>https://nathaniel-vaur-henel.github.io/blog/not-really-post</link>
+            <guid>https://nathaniel-vaur-henel.github.io/blog/not-really-post</guid>
+            <pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>
+<p>Some non-visible text on summary.</p>]]></content:encoded>
+            <category>hola</category>
+            <category>blog</category>
+        </item>
+    </channel>
+</rss>

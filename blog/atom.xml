@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nathaniel-vaur-henel.github.io/blog</id>
+    <title>Nathaniel Vaur Henel, ton dév sensei Blog</title>
+    <updated>2023-07-18T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://nathaniel-vaur-henel.github.io/blog"/>
+    <subtitle>Nathaniel Vaur Henel, ton dév sensei Blog</subtitle>
+    <icon>https://nathaniel-vaur-henel.github.io/img/logo.png</icon>
+    <rights>Copyright © 2024 Nathaniel Vaur Henel</rights>
+    <entry>
+        <title type="html"><![CDATA[Ceci n'est pas un post]]></title>
+        <id>https://nathaniel-vaur-henel.github.io/blog/not-really-post</id>
+        <link href="https://nathaniel-vaur-henel.github.io/blog/not-really-post"/>
+        <updated>2023-07-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>
+<p>Some non-visible text on summary.</p>]]></content>
+        <author>
+            <name>Nathaniel Vaur Henel</name>
+            <uri>https://github.com/Nathaniel-Vaur-Henel</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="blog" term="blog"/>
+    </entry>
+</feed>

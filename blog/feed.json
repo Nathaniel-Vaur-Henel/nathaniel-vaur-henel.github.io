@@ -1,0 +1,24 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Nathaniel Vaur Henel, ton dév sensei Blog",
+    "home_page_url": "https://nathaniel-vaur-henel.github.io/blog",
+    "description": "Nathaniel Vaur Henel, ton dév sensei Blog",
+    "items": [
+        {
+            "id": "https://nathaniel-vaur-henel.github.io/blog/not-really-post",
+            "content_html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>\n<p>Some non-visible text on summary.</p>",
+            "url": "https://nathaniel-vaur-henel.github.io/blog/not-really-post",
+            "title": "Ceci n'est pas un post",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.",
+            "date_modified": "2023-07-18T00:00:00.000Z",
+            "author": {
+                "name": "Nathaniel Vaur Henel",
+                "url": "https://github.com/Nathaniel-Vaur-Henel"
+            },
+            "tags": [
+                "hola",
+                "blog"
+            ]
+        }
+    ]
+}
