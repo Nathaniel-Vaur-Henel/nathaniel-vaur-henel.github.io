@@ -1,10 +1,17 @@
 ---
+last_update:
+  date: 06/12/2022
 tags:
   - java
   - langage
   - développement
-last_update:
-  date: 06/12/2022
+# pour ajouter des tags à la page
+keywords:
+- devento
+- aide-mémoire
+- fiche technique
+# pour ajouter meta description à la page
+description: Fiche technique et aide-mémoire pour développeur sur les nouveautés de Java 11 à Java 17
 ---
 
 # Changement entre Java 11 et Java 17

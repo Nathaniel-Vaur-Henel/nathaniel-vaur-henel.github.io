@@ -11,7 +11,7 @@ keywords:
   - dev workout
   - entrainement
 # pour ajouter meta description à la page
-description: blablabla
+description: Du sport cérébral pour les devs
 ---
 
 # Dev Workout, commence ton entrainement !
