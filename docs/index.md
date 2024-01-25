@@ -12,7 +12,7 @@ keywords:
   - aide-mémoire
   - fiche technique
 # pour ajouter meta description à la page
-description: blablabla
+description: Fiche technique et aide-mémoire pour développeur
 ---
 
 # Améliorer sa Productivité de développeur avec les Deventos
