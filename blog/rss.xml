@@ -4,20 +4,11 @@
         <title>Nathaniel Vaur Henel, ton dév sensei Blog</title>
         <link>https://nathaniel-vaur-henel.github.io/blog</link>
         <description>Nathaniel Vaur Henel, ton dév sensei Blog</description>
-        <lastBuildDate>Fri, 15 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <copyright>Copyright © 2024 Nathaniel Vaur Henel</copyright>
-        <item>
-            <title><![CDATA[Test early]]></title>
-            <link>https://nathaniel-vaur-henel.github.io/blog/2024/02/test</link>
-            <guid>https://nathaniel-vaur-henel.github.io/blog/2024/02/test</guid>
-            <pubDate>Fri, 15 Mar 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[ceci est un test de publication en avance]]></description>
-            <content:encoded><![CDATA[<p>ceci est un test de publication en avance</p>]]></content:encoded>
-            <category>test</category>
-        </item>
         <item>
             <title><![CDATA[Débuter avec Spring grâce à Spring Initializr]]></title>
             <link>https://nathaniel-vaur-henel.github.io/blog/begin-spring</link>
