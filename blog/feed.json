@@ -5,9 +5,9 @@
     "description": "Nathaniel Vaur Henel, ton dév sensei Blog",
     "items": [
         {
-            "id": "https://nathaniel-vaur-henel.github.io/blog/2024/03/15/2024/02/.test",
+            "id": "https://nathaniel-vaur-henel.github.io/blog/2024/02/test",
             "content_html": "<p>ceci est un test de publication en avance</p>",
-            "url": "https://nathaniel-vaur-henel.github.io/blog/2024/03/15/2024/02/.test",
+            "url": "https://nathaniel-vaur-henel.github.io/blog/2024/02/test",
             "title": "Test early",
             "summary": "ceci est un test de publication en avance",
             "date_modified": "2024-03-15T00:00:00.000Z",
