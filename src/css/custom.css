@@ -33,3 +33,25 @@
   white-space: normal;
   overflow-wrap: break-word;
 }
+
+.footer-blog-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-blog-text {
+ flex: 1;
+ text-align: left;
+}
+
+.footer-blog-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 5;
+}
+
+.footer-blog-images img {
+  width: 1em;
+  height: auto;
+}
