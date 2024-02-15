@@ -220,16 +220,5 @@ Pour ce faire, tu dois d'abord remplir les champs suivants :</p>
             <category>développement</category>
             <category>tuto</category>
         </item>
-        <item>
-            <title><![CDATA[Ceci n'est pas un post]]></title>
-            <link>https://nathaniel-vaur-henel.github.io/blog/not-really-post</link>
-            <guid>https://nathaniel-vaur-henel.github.io/blog/not-really-post</guid>
-            <pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>
-<p>Some non-visible text on summary.</p>]]></content:encoded>
-            <category>hola</category>
-            <category>blog</category>
-        </item>
     </channel>
 </rss>

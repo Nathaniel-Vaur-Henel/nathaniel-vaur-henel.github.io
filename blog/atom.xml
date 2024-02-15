@@ -223,19 +223,4 @@ Pour ce faire, tu dois d'abord remplir les champs suivants :</p>
         <category label="développement" term="développement"/>
         <category label="tuto" term="tuto"/>
     </entry>
-    <entry>
-        <title type="html"><![CDATA[Ceci n'est pas un post]]></title>
-        <id>https://nathaniel-vaur-henel.github.io/blog/not-really-post</id>
-        <link href="https://nathaniel-vaur-henel.github.io/blog/not-really-post"/>
-        <updated>2023-07-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>
-<p>Some non-visible text on summary.</p>]]></content>
-        <author>
-            <name>Nathaniel Vaur Henel</name>
-            <uri>https://github.com/Nathaniel-Vaur-Henel</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="blog" term="blog"/>
-    </entry>
 </feed>
