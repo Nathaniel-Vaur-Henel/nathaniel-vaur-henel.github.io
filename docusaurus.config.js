@@ -130,9 +130,18 @@ const config = {
                 to: "/dev-workout",
               },
               {
-                label: "Blog",
-                to: "/blog",
-              },
+              html: '<div class="footer-blog-container">\
+                        <div class="footer-blog-text"><a href="/blog" class="footer__link-item">Blog</a></div>\
+                        <div class="footer-blog-images"> \
+                            <a href="/blog/rss.xml"><img src="/img/flux-rss.png" alt="Flux RSS" class="image-resized"/></a> \
+                            <a href="/blog/atom.xml"><img src="/img/flux-atom.svg" alt="Flux Atom" class="image-resized"/></a> \
+                            <a href="/blog/feed.json"><img src="/img/feed-json.svg" alt="Flux JSON" class="image-resized"/></a> \
+                            <img /> \
+                            <img /> \
+                            <img /> \
+                        </div> \
+                     </div>',
+              }
             ],
           },
           {
@@ -145,6 +154,10 @@ const config = {
               {
                 label: "Wikipédia",
                 href: "https://fr.wikipedia.org/",
+              },
+              {
+                label: "Baeldung",
+                href: "https://www.baeldung.com/",
               },
             ],
           },
@@ -192,7 +205,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nathaniel Vaur Henel. Built with <a href="https://docusaurus.io/" target="_about">Docusaurus</a>, 💪🏾 and 🖤.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nathaniel Vaur Henel. Built with <a href="https://docusaurus.io/" target="_about" class="footer__link-item">Docusaurus</a>, 💪🏾 and 🖤.`,
       },
       prism: {
         theme: prismThemes.github,
