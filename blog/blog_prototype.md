@@ -5,6 +5,7 @@ authors: nvh
 tags: [ Proto ] # mettre les tags
 draft: true # enlever ou mettre à false pour publier
 enableComments: true # pour giscus
+date: 3000-12-31
 ---
 
 [//]: # (la date de parution du blog sera la date du fichier au format YYYY-MM-DD)
@@ -15,7 +16,7 @@ enableComments: true # pour giscus
 
 :::info Le moment mnémotechnique
 
-> Ceci est un encart pour te donner un moment mnémotechnique.
+> Ceci est un encart pour te donner un moyen mnémotechnique.
 
 :::
 
@@ -26,6 +27,13 @@ enableComments: true # pour giscus
 Et paf, ça fait des Chocabugs©.
 
 :::
+
+:::info L'astuce de ton dev sensei
+
+> Explication d'un truc cool qui fait des trucs cool.
+
+:::
+
 
 ## Partie 1
 
