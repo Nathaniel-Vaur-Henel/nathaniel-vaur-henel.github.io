@@ -86,8 +86,7 @@ Pour ce faire, tu dois d'abord remplir les champs suivants :</p>
 <ul>
 <li><strong>Project</strong> : c'est le type de projet. Tu peux choisir Maven ou Gradle. Moi, j'ai l'habitude de Maven, donc je choisis <code>Maven</code>.</li>
 <li><strong>Language</strong> : c'est le langage de programmation. Tu peux choisir Java, Kotlin ou Groovy. Moi, je choisis <code>Java</code>.</li>
-<li>**Spring Boot
-** : c'est la version de Spring Boot. Tu peux choisir la dernière version stable. Moi, je choisis la version <code>3.2.2</code>.</li>
+<li><strong>Spring Boot</strong> : c'est la version de Spring Boot. Tu peux choisir la dernière version stable. Moi, je choisis la version <code>3.2.2</code>.</li>
 <li><strong>Project Metadata</strong> : ce sont les informations sur ton projet. Tu peux mettre ce que tu veux. Moi, je mets :<!-- -->
 <ul>
 <li><strong>Group</strong> : <code>fr.nvh</code>, c'est le nom racine de tous mes packages de toutes mes side projects.</li>
@@ -210,7 +209,7 @@ Pour ce faire, tu dois d'abord remplir les champs suivants :</p>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://nathaniel-vaur-henel.github.io/blog/begin-spring#conclusion" class="hash-link" aria-label="Lien direct vers Conclusion" title="Lien direct vers Conclusion">​</a></h2>
 <p>Je t'ai expliqué ce qu'est Spring et pourquoi c'est un framework incontournable pour un développeur Java.</p>
-<p>Je t'ai expliqué comment créer une application Spring en quelque minutes grâce à <a href="https://start.spring.io/" target="_blank" rel="noopener noreferrer">Spring Initializr</a> et je t'ai même donné des dépendances pour commencer.</p>
+<p>Je t'ai expliqué comment créer une application Spring en quelques minutes grâce à <a href="https://start.spring.io/" target="_blank" rel="noopener noreferrer">Spring Initializr</a> et je t'ai même donné des dépendances pour commencer.</p>
 <p>J'espère que tu as appris des choses. Et j'espère que tu as envie d'en apprendre encore plus. Parce que c'est pas fini. Et je te donne rendez-vous dans le prochain article pour commencer à coder et à configurer ton application.</p>
 <p>Si tu as envie que j'explique plus en avant certains concepts ou que je parle de quelque chose en particulier, n'hésite pas à me le dire dans les commentaires.</p>
 <p>Pour ne pas rater les prochains articles, abonne-toi à un flux (tu as le choix entre <a href="https://nathaniel-vaur-henel.github.io/blog/rss.xml" target="_blank" rel="noopener noreferrer">RSS</a>, <a href="https://nathaniel-vaur-henel.github.io/blog/atom.xml" target="_blank" rel="noopener noreferrer">Atom</a> et <a href="https://nathaniel-vaur-henel.github.io/blog/feeed.json" target="_blank" rel="noopener noreferrer">Json</a>) ou à la newsletter en <a href="https://nathaniel-vaur-henel.github.io/">page d'accueil</a> !</p>
