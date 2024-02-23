@@ -130,12 +130,12 @@ const config = {
                 to: "/dev-workout",
               },
               {
-              html: '<div class="footer-blog-container">\
+                html: '<div class="footer-blog-container">\
                         <div class="footer-blog-text"><a href="/blog" class="footer__link-item">Blog</a></div>\
                         <div class="footer-blog-images"> \
-                            <a href="/blog/rss.xml"><img src="/img/flux-rss.png" alt="Flux RSS" class="image-resized"/></a> \
-                            <a href="/blog/atom.xml"><img src="/img/flux-atom.svg" alt="Flux Atom" class="image-resized"/></a> \
-                            <a href="/blog/feed.json"><img src="/img/feed-json.svg" alt="Flux JSON" class="image-resized"/></a> \
+                            <a href="/blog/rss.xml"><img src="/img/flux-rss.png" alt="Flux RSS" /></a> \
+                            <a href="/blog/atom.xml"><img src="/img/flux-atom.svg" alt="Flux Atom"/></a> \
+                            <a href="/blog/feed.json"><img src="/img/feed-json.svg" alt="Flux JSON"/></a> \
                             <img /> \
                             <img /> \
                             <img /> \
