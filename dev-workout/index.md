@@ -38,8 +38,8 @@ Et sur le Discord, tu partages tes questions, tes idées, tes avancées, tes blo
 Je t'ai préparé des exercices sur mon repository [Github dédié](https://github.com/Nathaniel-Vaur-Henel/dev-workout) !  
 Ils sont de deux catégories :
 
-- **Les katas** : des **exercices courts sur un sujet précis**, et que tu peux faire rapidement.
-- **Les mini-projets** : ce sont des **exercices plus longs** dont la finalité est une appli. Ils te permettent de te mettre en situation de projet. J'ai déjà prévu le découpage en tâches, et je te donne un énoncé afin de faciliter ta mise en route. Tu n'as plus qu'à coder.
+- **Les katas, ou exercices** : des **exercices courts sur un sujet précis**, et que tu peux faire rapidement. Tu trouveras plus d'infos dans la section dédiée sur mon [Github](https://github.com/Nathaniel-Vaur-Henel/dev-workout?tab=readme-ov-file#les-exercices-ou-katas).
+- **Les mini-projets** : ce sont des **exercices plus longs** dont la finalité est une appli. Ils te permettent de te mettre en situation de projet. J'ai déjà prévu le découpage en tâches, et je te donne un énoncé afin de faciliter ta mise en route. Tu n'as plus qu'à coder. Tu trouveras plus d'infos dans la section dédiée sur mon [Github](https://github.com/Nathaniel-Vaur-Henel/dev-workout?tab=readme-ov-file#les-mini-projets).
 
 ## Et si tu t'entrainais avec un side-project ?
 
@@ -52,7 +52,7 @@ Un conseil tout de même. **Si tu es débutant**, ne part pas sur un sujet trop 
 
 ## Où trouver des idées de side project ?
 
-Tu trouveras des idées de side project dans la fiche [Idées de side project](01.idees-side-project.md).
+Tu trouveras des idées de side project classique dans la fiche [Idées de side project](01.idees-side-project.md).
 
 Mais le mieux c'est de chercher autour de toi la bonne idée :
 
