@@ -163,8 +163,8 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
 
 ## Les fiches
 
-- [pdf](_java11_17_card.pdf)
-- [md](_java11_17_card.markdown)
+- [pdf](java11_17_aide-mémoire.pdf)
+- [md](java11_17_aide-mémoire.markdown)
 
 ## Informations
 
