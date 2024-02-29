@@ -28,4 +28,4 @@ Changement entre Java 11 et Java 17 (v1.2022.05.26)
 - `Stream.toList` : afin d’éviter de passer par un `.collect(Collectors.toList())`
 
 ---
-*Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/docs/index#nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)* 
+*Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par Nathaniel Vaur Henel sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)* 
