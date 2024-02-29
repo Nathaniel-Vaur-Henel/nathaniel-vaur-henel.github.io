@@ -49,6 +49,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: '/devento/',
+          path: "devento",
         },
         blog: {
           showReadingTime: true,
@@ -107,7 +109,7 @@ const config = {
           },
           { to: "/dev-workout", label: "Dév Workout", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/docs/tags", label: "Tags", position: "right" },
+          { to: "/devento/tags", label: "Tags Devento", position: "right" },
           {
             href: "https://github.com/Nathaniel-Vaur-Henel",
             label: "GitHub",
@@ -123,7 +125,7 @@ const config = {
             items: [
               {
                 label: "Devento",
-                to: "/docs",
+                to: "/devento",
               },
               {
                 label: "Dev Workout",
