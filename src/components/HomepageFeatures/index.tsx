@@ -66,14 +66,15 @@ function Feature({
   toLabel,
 }: Readonly<FeatureItem>) {
   return (
-    <div className={clsx("col col--4")}>
-      <div className="text--center">
+    <div className={clsx("col col--4", styles.featureCard)}>
+      <div className="">
         <Link className="button button--lg" to={useBaseUrl(to)}>
           <Svg className={styles.featureSvg} role="img" alt={title} />
         </Link>
-      </div>
-      <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
+      </div>
+      <div className="padding-horiz--md">
+        
         <p>{description}</p>
       </div>
       <div>

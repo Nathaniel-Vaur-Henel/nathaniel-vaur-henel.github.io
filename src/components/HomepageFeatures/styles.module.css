@@ -9,3 +9,12 @@
   height: 200px;
   width: 200px;
 }
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center ;
+  padding-top: 0 var(--ifm-spacing-horizontal);
+}
