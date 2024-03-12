@@ -6,6 +6,8 @@
 - `->` remplace `:` et évite le `break`
 - `->` peut être utilisé pour renvoyer une valeur
 - `->` switch sur le type pour *caster* à la volée
+- gestion du `null` dans un case
+- `yield` pour renvoyer une valeur dans le switch sur le type
 
 ## Classe
 
