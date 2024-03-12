@@ -14,11 +14,36 @@ keywords:
 description: Fiche technique et aide-mémoire pour développeur sur les nouveautés de Java 11 à Java 17
 ---
 
-# Changement entre Java 11 et Java 17
+# De Java 11 à Java 17, les nouveautés
 
 _Tu vas avoir toutes les modifications qui vont te changer la vie de tous les jours sous les yeux en une seule fois !_
 
-## Switch Case
+## Apprendre les nouveautés de Java 11 à Java 17
+
+Pourquoi une fiche sur les nouveautés de Java 11 à Java 17 ? Parce que c'est une période de transition pour beaucoup de développeurs.
+
+En effet, les chiffres changent, mais les faits restent.
+En 2022, à la publication de cette fiche, [New Relic](https://fr.wikipedia.org/wiki/New_Relic) publiait un [rapport](https://newrelic.com/fr/resources/report/2022-state-of-java-ecosystem#toc-java-11-est-la-nouvelle-norme) sur l'usage de Java :
+
+|      | Java 8  | Java 11 |
+|:----:|:-------:|:-------:|
+| 2020 | 84,48 % | 11,11%  |
+| 2022 | 46,45 % |   48%   |
+
+Comme [Java 17](https://fr.wikipedia.org/wiki/Java_(langage)#Java_SE_17_(LTS)) est la nouvelle version [LTS](https://fr.wikipedia.org/wiki/Long-term_support) de Java, il y a fort à parier que les migrations seront nombreuses.
+De plus, les versions 12 à 16 sont assez peu utilisées. J'ai décidé de faire le grand écart, comme beaucoup et de passer de la 11 à la 17. Oui, cette fiche servira donc au moins à une personne !
+
+:::note
+
+La version 17 ne sera rapidement plus la dernière version LTS, mais les nouveautés de Java 17 sont toujours d'actualité. De plus, sa période de maintenance court jusqu'en 2026 et son support étendu jusqu'en 2029.
+
+:::
+
+De plus comme les nouveautés présentées ici ne sont que des améliorations de syntaxe ou des ajouts de fonctionnalités mineures, elles sont souvent ignorées par les développeurs. Pourtant, elles peuvent te changer la vie de tous les jours.
+
+## La fiche technique
+
+### Switch Case
 
 :::tip
 
@@ -26,8 +51,7 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
 
 :::
 
-- case multiple avec un
-  séparateur `,` [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
+- `case` multiple avec un séparateur `,` [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
   ```java
   switch (i) {
     case 1, 2, 3 :
@@ -37,8 +61,7 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
       throw new IllegalArgumentException("Number is not supported");
   }
   ```
-- `->` remplace `:` et évite
-  le `break` [@since Java 12](https://www.oracle.com/java/technologies/javase/12all-relnotes.html#NewFeature)
+- `->` remplace `:` et évite le `break` [@since Java 12](https://www.oracle.com/java/technologies/javase/12all-relnotes.html#NewFeature)
 
   ```java
   switch (i) {
@@ -47,8 +70,7 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
   }
   ```
 
-- `->` peut être utilisé pour renvoyer une
-  valeur [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
+- `->` peut être utilisé pour renvoyer une valeur [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
   ```java
   String vehicleType = switch (wheelNumber) {
     case 2  -> "bicycle";
@@ -56,8 +78,7 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
     default -> "Unknown vehicle";
   };
   ```
-- `->` switch sur le type pour _caster_ à la
-  volée [@since Java 17 preview](https://www.oracle.com/java/technologies/javase/17all-relnotes.html#NewFeature)
+- `->` switch sur le type pour _caster_ à la volée [@since Java 17 preview](https://www.oracle.com/java/technologies/javase/17all-relnotes.html#NewFeature)
   ```java
   static String getType(Object o) {
     return switch (o) {
@@ -65,22 +86,48 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
       case Long l    -> String.format("%d is a big integer!", l);
       case Double d  -> String.format("%f is a decimal number!", d);
       case String s  -> String.format("%s is a String!", s);
-      default        -> "Non reconnu";
+      default        -> "Unknown type";
     };
   }
   ```
+- gestion du `null` [@since Java 17 preview](https://www.oracle.com/java/technologies/javase/17all-relnotes.html#NewFeature)
+  ```java
+  switch (o) {
+    case null  -> String.format("%d is an integer", i);
+    case "you" -> System.out.println("pi !");
+    case "hou" -> System.out.println("rra !");
+    default    -> System.out.println("ouin...");
+  };
+  ```
+- `yield` pour renvoyer une valeur dans le switch sur le type [@since Java 17 preview](https://www.oracle.com/java/technologies/javase/17all-relnotes.html#NewFeature)
+  ```java
+  static void toBool(int i) {
+    Boolean b =  switch (i) {
+      case 0 -> {
+        System.out.println("c'est rien");
+        yield false;
+      }
+      case 1 -> {
+        System.out.println("c'est le début");
+        yield true;
+      }
+      default -> {
+        System.out.println("ce n'est pas possible");
+        yield null;
+      }
+    };
+  }
+  ```
+  
+### Class modifier
 
-## Class modifier
-
-- `record` : nouveau type de class : immutable et
-  génère `getter/hashCode/equals` [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
+- `record` : nouveau type de class : immutable et génère `getter/hashCode/equals` [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
   ```java
   record ColorRecord(int red, int green, int blue) {};
   ColorRecord color = new ColorRecord(255, 10, 10);
   color.red();
   ```
-- `sealed` : afin de verrouiller les possibilités
-  d'héritage [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
+- `sealed` : afin de verrouiller les possibilités d'héritage [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
 
   ```java
   abstract sealed class Person permits Employee, Boss {
@@ -98,33 +145,28 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
   final class Customer extends Person { }
   ```
 
-## Formatage
+### Formatage
 
-- `NumberFormat` : ajout d'un formatage `SHORT` : 10k, 1M,
-  etc. [@since Java 12](https://www.oracle.com/java/technologies/javase/12all-relnotes.html#NewFeature)
+- `NumberFormat` : ajout d'un formatage `SHORT` : 10k, 1M, etc. [@since Java 12](https://www.oracle.com/java/technologies/javase/12all-relnotes.html#NewFeature)
   ```java
   NumberFormat.getCompactNumberInstance(Locale.FRANCE, NumberFormat.Style.SHORT);
   ```
-- `NumberFormat` : ajout d'un formatage `LONG`; avec `Locale` : 1 million, 2 mille,
-  etc. [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
+- `NumberFormat` : ajout d'un formatage `LONG`; avec `Locale` : 1 million, 2 mille, etc. [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
   ```java
   NumberFormat.getCompactNumberInstance(Locale.FRANCE, NumberFormat.Style.LONG);
   ```
-- `NumberFormat` : ajout d’un formatage monnaie, avec `Locale` : $3.24, 5,61€,
-  etc. [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
+- `NumberFormat` : ajout d’un formatage monnaie, avec `Locale` : $3.24, 5,61€, etc. [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
   ```java
   NumberFormat.getCurrencyInstance(Locale.FRANCE)
   ```
-- `DateTimeFormatter` : ajout du cycle, avec `Locale` : du matin, de l'après-midi,
-  etc. [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
+- `DateTimeFormatter` : ajout du cycle, avec `Locale` : du matin, de l'après-midi, etc. [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
   ```java
   DateTimeFormatter.ofPattern("B", Locale.FRANCE)
   ```
 
-## Divers
+### Divers
 
-- `String` : bloc String multiligne
-  avec `"""` [@since Java 13](https://www.oracle.com/java/technologies/javase/13all-relnotes.html#NewFeature)
+- `String` : bloc String multiligne avec `"""` [@since Java 13](https://www.oracle.com/java/technologies/javase/13all-relnotes.html#NewFeature)
   ```java
   // pour le même rendu :
   String withoutMultiline = "{\n" +
@@ -137,23 +179,20 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
         "name":"Nathaniel"
       }""";
   ```
-- `Exception` : meilleur message de debug sur les `Exception`, en particulier
-  les `NullpointerException` [@since Java 17](https://www.oracle.com/java/technologies/javase/17all-relnotes.html#NewFeature)
+- `Exception` : meilleur message de debug sur les `Exception`, en particulier les `NullpointerException` [@since Java 17](https://www.oracle.com/java/technologies/javase/17all-relnotes.html#NewFeature)
   ```java
   String s = null;
   System.out.println(s.toLowerCase());
   // => Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "s" is null
   ```
-- `instanceof` : peut être suivi d'un nom de variable afin de caster
-  immédiatement [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
+- `instanceof` : peut être suivi d'un nom de variable afin de caster immédiatement [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
   ```java
   Person p = new Employee();
   if (p instanceof Employee employee){
       System.out.println(employee.getEmployeeId());
   }
   ```
-- `Stream.toList` : afin d’éviter de passer par
-  un `.collect(Collectors.toList())` [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
+- `Stream.toList` : afin d’éviter de passer par un `.collect(Collectors.toList())` [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
   ```java
   // avant
   List.of("some","thing").stream().collect(Collectors.toList());
@@ -161,25 +200,12 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
   List.of("some","thing").stream().toList();
   ```
 
-## Les fiches
+## Ressources
+
+### Fiches à télécharger
 
 - [pdf](java11_17_aide-mémoire.pdf)
 - [md](java11_17_aide-mémoire.markdown)
-
-## Informations
-
-### Pourquoi ?
-
-Les chiffres changent, mais les faits restent.
-En 2022, à la publication de cette fiche, [New Relic](https://fr.wikipedia.org/wiki/New_Relic) publiait un [rapport](https://newrelic.com/fr/resources/report/2022-state-of-java-ecosystem#toc-java-11-est-la-nouvelle-norme) sur l'usage de Java :
-
-|      | Java 8  | Java 11 |
-| :--: | :-----: | :-----: |
-| 2020 | 84,48 % | 11,11%  |
-| 2022 | 46,45 % |   48%   |
-
-Comme [Java 17](<https://fr.wikipedia.org/wiki/Java_(langage)#Java_SE_17>) est la nouvelle version [LTS](https://fr.wikipedia.org/wiki/Long-term_support) de Java, il y a fort à parier que les migrations seront nombreuses.
-De plus, les versions 12 à 16 sont assez peu utilisées. J'ai décidé de faire le grand écart, comme beaucoup et de passer de la 11 à la 17. Oui, cette fiche servira donc au moins à une personne !
 
 ### Sources
 
