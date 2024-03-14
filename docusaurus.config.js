@@ -51,6 +51,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: '/devento/',
           path: "devento",
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
