@@ -13,7 +13,7 @@ Les commentaires du blog sont propulsés par [Giscus](https://giscus.app/fr).
 ### Lancer un server de test en local
 
 ```shell
-$ npm run start
+$ yarn run start
 ```
 
 Lance un serveur local et ouvre la page dans le navigateur par défaut.
@@ -21,7 +21,15 @@ Lance un serveur local et ouvre la page dans le navigateur par défaut.
 ### Build
 
 ```shell
-$ npm run build
+$ yarn run build
+```
+
+Génère le contenu static dans le répertoire `build`.
+
+### Lancement du site en local 
+
+```shell
+$ yarn run serve
 ```
 
 Génère le contenu static dans le répertoire `build`.
