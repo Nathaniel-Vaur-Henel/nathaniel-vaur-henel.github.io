@@ -219,6 +219,7 @@ const config = {
         appId: 'GUSLMEOWUH',
         apiKey: '6c401866b1a230b7ce35982f17f3de7e',
         indexName: 'nathaniel-vaur-henelio',
+        contextualSearch: false,
       }
     }),
   markdown: {
