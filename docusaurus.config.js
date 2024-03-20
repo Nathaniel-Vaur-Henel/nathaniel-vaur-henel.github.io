@@ -110,6 +110,8 @@ const config = {
           },
           { to: "/dev-workout", label: "Dév Workout", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
+
+          { type: "search", position: "right"},
           { to: "/devento/tags", label: "Tags Devento", position: "right" },
           {
             href: "https://github.com/Nathaniel-Vaur-Henel",
