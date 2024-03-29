@@ -10,6 +10,10 @@ Ce site utilise [Docusaurus 3](https://docusaurus.io/), un générateur de site 
 
 Les commentaires du blog sont propulsés par [Giscus](https://giscus.app/fr).
 
+La publication, le déploiement et l'hébergement sont gérés par [GitHub Pages](https://pages.github.com/).
+
+La publication est planifiée grâce à [merge-schedule-action](https://github.com/gr2m/merge-schedule-action)
+
 ### Lancer un server de test en local
 
 ```shell
