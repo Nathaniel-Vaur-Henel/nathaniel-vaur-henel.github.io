@@ -42,6 +42,42 @@ Génère le contenu static dans le répertoire `build`.
 
 Utilisations des actions GitHub
 
+### Utilisation de Slidev
+
+Création de slides avec [Slidev](https://sli.dev/)
+
+> Dû à des façons différentes de gérer les arguments, les commandes sont différentes selon le système d'exploitation :
+> - Sous Windows, utiliser les commandes se finissant par `:w`.
+> - Sous Unix, utiliser les commandes se finissant par `:l` (à tester).
+- [How to use parameters in NPM Scripts at package.json?](https://medium.com/@devsuresh2005/how-to-use-parameters-in-npm-scripts-at-package-json-2b6441750858)
+
+### Tester des slides
+
+Pour **tester** une série de slides, il faut : 
+
+- créer le fichier `.md` contenant les slides dans le répertoire `slidev`. 
+- lancer la commande `npm run slidev --name=nom_du_fichier_md_sans_extension` pour générer les slides.
+- le navigateur s'ouvrira à l'adresse `http://localhost:3030/` pour visualiser les slides.
+
+### Build des slides
+
+- Pour **build** une série de slides, il faut : 
+- 
+- créer le fichier `.md` contenant les slides dans le répertoire `slidev`. 
+- lancer la commande `npm run slidev:build --name=nom_du_fichier_md_sans_extension` pour générer les slides.
+
+> Le nom du fichier sera utilisé pour le slug de la page.  
+> Exemple : si name=slides : 
+> - le fichier lu sera ${roo.project}/slidev/_slides_.md
+> - la série de slides sera générée dans ${roo.project}/static/slidev/_slides_
+> - la page sera accessible à l'adresse `http://mon.site/slidev/slides`
+
+### Encore à faire
+
+- [ ] tester de faire mes slides
+- [ ] tester les thèmes 
+- [ ] tester si on peut lancer le deploy directement dans les GitHub Actions
+
 ## Mise à jour des dépendances
 
 - Installe [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) si ce n'est déjà fait.
