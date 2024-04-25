@@ -5,7 +5,7 @@ authors: nvh
 tags: [ Proto ] # mettre les tags
 draft: true # enlever ou mettre à false pour publier
 enableComments: true # pour giscus
-date: 3000-12-31
+date: 3000-12-31 # à supprimer dans les articles publiés
 ---
 
 [//]: # (la date de parution du blog sera la date du fichier au format YYYY-MM-DD)
