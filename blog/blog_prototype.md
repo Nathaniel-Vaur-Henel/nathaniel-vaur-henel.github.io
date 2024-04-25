@@ -4,15 +4,20 @@ title: Un super titre !
 authors: nvh
 tags: [ Proto ] # mettre les tags
 draft: true # enlever ou mettre à false pour publier
-enableComments: true # pour giscus
+enableComments: false # pour giscus
 date: 3000-12-31 # à supprimer dans les articles publiés
 ---
 
 [//]: # (la date de parution du blog sera la date du fichier au format YYYY-MM-DD)
 
 > Intro qui sera visible dans la liste des articles.
-
 <!--truncate-->
+
+:::tip Dev sensei, raconte-moi une histoire
+
+> Raconte une anecdote 100% vraie qui a un rapport avec le sujet de l'article.
+
+:::
 
 :::info Le moment mnémotechnique
 
@@ -68,4 +73,19 @@ J'espère que tu as appris des choses. Et j'espère que tu as envie d'en apprend
 
 Si tu as envie que j'explique plus en avant certains concepts ou que je parle de quelque chose en particulier, n'hésite pas à me le dire dans les commentaires.
 
-Et bon entrainement ! 
+Pour ne pas rater les prochains articles, abonne-toi à un flux (tu as le choix entre [RSS](https://nathaniel-vaur-henel.github.io/blog/rss.xml), [Atom](https://nathaniel-vaur-henel.github.io/blog/atom.xml) et [Json](https://nathaniel-vaur-henel.github.io/blog/feeed.json)) ou à la newsletter en [page d'accueil](/) !
+
+Et bon entrainement ! 
+
+> Voilà, tu as fini ton article ! 
+> Pense à : 
+> - mettre un   devant tous le ! ? et :
+> - supprimer la ligne draft dans le frontmatter
+> - mettre la date du jour dans le frontmatter
+> - activer les commentaires si besoin dans le frontmatter avec `enableComments: true`
+> - vérifier que le slug est unique
+> - vérifier que les tags sont bons
+> - vérifier que le titre est bon
+> - vérifier que le nom de l'auteur est bon
+> - vérifier que le nom du fichier est bon, avec la date de parution 
+> - 

@@ -215,7 +215,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ["java"],
+        additionalLanguages: ["java", "json", "http", "yaml", "sql"],
       },
       algolia: {
         appId: 'GUSLMEOWUH',
