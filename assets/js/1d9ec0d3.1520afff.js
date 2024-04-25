@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[4372],{9291:a=>{a.exports=JSON.parse('{"label":"Spring","permalink":"/blog/tags/spring","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

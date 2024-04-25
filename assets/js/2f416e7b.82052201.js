@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[2790],{975:a=>{a.exports=JSON.parse('{"label":"langage","permalink":"/blog/tags/langage","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
