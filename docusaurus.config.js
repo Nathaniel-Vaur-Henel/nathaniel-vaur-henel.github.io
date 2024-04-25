@@ -54,7 +54,7 @@ const config = {
           showLastUpdateTime: true,
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           blogTitle: "Mon blog de dév",
           blogDescription: "Le blog de Nathaniel Vaur Henel, ton dév sensei",
           blogSidebarCount: 50,
