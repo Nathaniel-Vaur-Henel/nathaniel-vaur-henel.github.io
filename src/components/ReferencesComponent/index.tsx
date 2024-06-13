@@ -12,44 +12,29 @@ type ReferenceItem = {
 
 const ReferencesList: ReferenceItem[] = [
   {
-    name: "E.",
+    name: "Alban J.",
     url: null,
     urlLabel: null,
     recommandation: (
       <>
-        J'ai mieux compris en discutant 10 minutes avec Nathaniel qu'en 1 journée de cours.
-      </>
-    ),
-  },
-  {
-    name: "Anne Onime",
-    url: "https://www.google.com",
-    urlLabel: "Google",
-    recommandation: (
-      <>Je n'étais personne, et grâce à Nathaniel, maintenant, je le sais !</>
-    ),
-  },
-  {
-    name: "Terry Diculle",
-    url: "https://www.github.com",
-    urlLabel: null,
-    recommandation: (
-      <>
-        <b>Avant</b>... <i>après</i> !
+        <div>J'ai eu l'occasion de suivre des formations de Nathaniel il y a quelques mois en Java.</div>
+        <div>Un formateur à la fois, jovial, à l'écoute, professionnel.</div>
+        <div>Les sujets sont abordés avec une marge de progression adaptée.</div>
+        <div>Les exercices sont intéressants et vivants.</div>
+        <div>Le formateur est pétillant, un puits de science.</div>
+        <div>Même en cas de difficultés des apprenants/élèves Il ne laisse pas les personnes sur le côté.</div>
+        <div>Si vous avez le choix entre lui et quelqu'un d'autre, foncez ! Nathaniel est l'homme de la situation.</div>
       </>
     ),
   },
 ];
 
 function Url({ url, urlLabel }) {
-  console.log(url);
   if (url !== null) {
     return (
-      <div className="{styles.buttons}">
-        <Link className="button button--secondary button--lg" to={url}>
+        <Link className="Link" to={url}>
           {urlLabel === null ? url : urlLabel}
         </Link>
-      </div>
     );
   }
   return null;
@@ -63,12 +48,9 @@ function Reference({
 }: Readonly<ReferenceItem>) {
   return (
     <div className={clsx("col col--4")}>
-      <div className="text--center">
-        <Link className="button button--lg" to={url}></Link>
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{name}</h3>
-        <p>{recommandation}</p>
+      <div className="text--left padding-horiz--md">
+        <h3 className={clsx(styles.name)}>{name}</h3>
+        <p className={clsx(styles.recommandation)}>{recommandation}</p>
         <Url url={url} urlLabel={urlLabel} />
       </div>
     </div>
@@ -77,11 +59,10 @@ function Reference({
 
 export default function ReferencesComponent(): JSX.Element {
   return (
-    <section className={styles.features}>
+    <section>
       <div className={clsx("container", styles.border)}>
         <h1 className="text--center padding-horiz--md">Témoignages</h1>
-        <div>Site en construction = faux témoignages...</div>
-        <div className={clsx("row", styles.reference)}>
+        <div className={clsx("row", styles.references)}>
           {ReferencesList.map((props, idx) => (
             <Reference key={idx} {...props} />
           ))}

@@ -98,6 +98,7 @@ export default function HomepageFeatures(): JSX.Element {
             <Feature key={idx} {...props} />
           ))}
         </div>
+        <ReferencesComponent />
         <MeComponent />
       </div>
     </section>

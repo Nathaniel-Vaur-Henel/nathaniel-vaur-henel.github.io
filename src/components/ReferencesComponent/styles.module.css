@@ -1,9 +1,16 @@
-.reference {
-  font-size: 1rem;
-  text-align: left;
+.references {
+    font-size: 0.9rem;
 }
 
 .border {
   margin: 1rem;
   padding: 1rem;
+}
+
+.recommandation {
+  margin-bottom: 0.1rem;
+}
+
+.name {
+  margin-bottom: 0.1rem;
 }
