@@ -5,6 +5,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import MeComponent from "@site/src/components/MeComponent";
 import ReferencesComponent from "@site/src/components/ReferencesComponent";
+import NewsletterComponent from "@site/src/components/NewsletterComponent";
 
 type FeatureItem = {
   title: string;
@@ -98,8 +99,8 @@ export default function HomepageFeatures(): JSX.Element {
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <ReferencesComponent />
         <MeComponent />
+        <ReferencesComponent />
       </div>
     </section>
   );

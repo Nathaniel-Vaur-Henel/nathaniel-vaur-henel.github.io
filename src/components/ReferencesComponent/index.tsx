@@ -27,6 +27,31 @@ const ReferencesList: ReferenceItem[] = [
       </>
     ),
   },
+  {
+    name: "Raphaël Poiron",
+    url: "https://www.linkedin.com/in/raphael-poiron/",
+    urlLabel: "LinkedIn",
+    recommandation: (
+      <>
+        <div>J'ai été accompagné par Nathaniel au sein de mon entreprise pendant 9 mois et ce dés mon arrivée dans celle-ci. Je peux dire que mon intégration n'aurait pas été la même et que je n'aurais peut-être même pas continué le métier de développeur sans lui car dans les moments de doutes il a toujours été là pour me remonter le moral, m'expliquer patiemment les choses que je ne comprenais ou tout simplement me redonner un petit coup de boost. J'ai donc pris la décision de signer définitivement un peu grâce à lui.</div>
+        <div>Nathaniel est d'une gentillesse incroyable, d'une patience à toute épreuve et il a cette envie de transmettre ses connaissances aux autres qui en font un super formateur. Une vraie mine d'or sur Java ou Spring mais pas que.</div>
+      </>
+    ),
+  },
+  {
+    name: "Mustapha Dehaimani",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7175808279309090816?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7175808279309090816%2C7206680761880432641%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287206680761880432641%2Curn%3Ali%3Aactivity%3A7175808279309090816%29",
+    urlLabel: "LinkedIn",
+    recommandation: (
+      <>
+        <div>J'ai eu la chance de travailler avec Nathaniel à e.SNCF-Solutions.</div>
+        <div>Sa compétence technique est inégalée, et il maîtrise parfaitement les subtilités du développement Java. Il transmet ses connaissances et son expérience avec clarté et passion.</div>
+        <div>Il a une aptitude remarquable pour expliquer des concepts complexes de manière accessible et engageante.</div>
+        <div>Son dévouement et son professionnalisme sont inspirants.</div>
+        <div>Collaborer avec Nathaniel a été une expérience extrêmement enrichissante, tant sur le plan professionnel que personnel.</div>
+      </>
+    ),
+  },
 ];
 
 function Url({ url, urlLabel }) {

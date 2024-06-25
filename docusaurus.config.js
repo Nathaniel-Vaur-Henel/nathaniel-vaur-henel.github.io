@@ -118,6 +118,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://www.malt.fr/profile/nathanielvaurhenel",
+            label: 'Malt',
+            position: "right",
+          },
         ],
       },
       footer: {
@@ -176,6 +181,10 @@ const config = {
               {
                 label: "Linkedin",
                 href: "https://github.com/Nathaniel-Vaur-Henel",
+              },
+              {
+                label: "Malt",
+                href: "https://www.malt.fr/profile/nathanielvaurhenel",
               },
             ],
           },
