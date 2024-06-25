@@ -128,6 +128,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://www.malt.fr/profile/nathanielvaurhenel",
+            label: 'Malt',
+            position: "right",
+          },
         ],
       },
       footer: {
