@@ -15,6 +15,8 @@ type FeatureItem = {
   toLabel: string;
 };
 
+
+// le dark mode des svg est mis en place, il faut juste utiliser de vrais svg
 const FeatureList: FeatureItem[] = [
   {
     title: "Devento, le memento du Dév",

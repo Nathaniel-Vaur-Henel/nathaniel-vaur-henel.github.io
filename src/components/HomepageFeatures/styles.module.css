@@ -7,6 +7,8 @@
 
 .featureSvg {
   height: 200px;
+  stroke: var(--feature-svg-color);
+  fill: var(--feature-svg-color);
   width: 200px;
 }
 

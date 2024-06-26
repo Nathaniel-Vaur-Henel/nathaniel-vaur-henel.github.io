@@ -19,6 +19,7 @@
     "@docusaurus/preset-classic": "^3.3.2",
     "@docusaurus/theme-mermaid": "^3.3.2",
     "@giscus/react": "^3.0.0",
+    "@iconify/react": "^5.0.1",
     "@mdx-js/react": "^3.0.1",
     "carbon-icons": "^7.0.7",
     "clsx": "^2.1.1",

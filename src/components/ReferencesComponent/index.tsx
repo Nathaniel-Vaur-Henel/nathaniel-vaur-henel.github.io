@@ -1,7 +1,9 @@
 import React from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
+import IconExternalLink from "@docusaurus/claTheme/";
 import styles from "./styles.module.css";
+import { Icon } from '@iconify/react'; // Import the entire Iconify library.
 
 type ReferenceItem = {
   name: string;
@@ -15,6 +17,7 @@ const ReferencesList: ReferenceItem[] = [
     name: "Alban J.",
     url: null,
     urlLabel: null,
+    iconifyName: null,
     recommandation: (
       <>
         <div>J'ai eu l'occasion de suivre des formations de Nathaniel il y a quelques mois en Java.</div>
@@ -30,7 +33,8 @@ const ReferencesList: ReferenceItem[] = [
   {
     name: "Raphaël Poiron",
     url: "https://www.linkedin.com/in/raphael-poiron/",
-    urlLabel: "LinkedIn",
+    urlLabel: null,
+    iconifyName: "mdi:linkedin",
     recommandation: (
       <>
         <div>J'ai été accompagné par Nathaniel au sein de mon entreprise pendant 9 mois et ce dés mon arrivée dans celle-ci. Je peux dire que mon intégration n'aurait pas été la même et que je n'aurais peut-être même pas continué le métier de développeur sans lui car dans les moments de doutes il a toujours été là pour me remonter le moral, m'expliquer patiemment les choses que je ne comprenais ou tout simplement me redonner un petit coup de boost. J'ai donc pris la décision de signer définitivement un peu grâce à lui.</div>
@@ -40,8 +44,9 @@ const ReferencesList: ReferenceItem[] = [
   },
   {
     name: "Mustapha Dehaimani",
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7175808279309090816?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7175808279309090816%2C7206680761880432641%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287206680761880432641%2Curn%3Ali%3Aactivity%3A7175808279309090816%29",
-    urlLabel: "LinkedIn",
+    url: "https://www.linkedin.com/in/mustapha-dehaimani-829a6418b/",
+    urlLabel: null,
+    iconifyName: "mdi:linkedin",
     recommandation: (
       <>
         <div>J'ai eu la chance de travailler avec Nathaniel à e.SNCF-Solutions.</div>
@@ -54,12 +59,20 @@ const ReferencesList: ReferenceItem[] = [
   },
 ];
 
-function Url({ url, urlLabel }) {
+function Url({ url, urlLabel, iconifyName }) {
   if (url !== null) {
+    let icon = null;
+    if( iconifyName !== null) {
+        icon =  <Icon inline icon={iconifyName} height="1.5rem" />
+    }
+
     return (
-        <Link className="Link" to={url}>
-          {urlLabel === null ? url : urlLabel}
+        <div>
+        <Link className={clsx("Link")} to={url}>
+          {icon}
+          {urlLabel === null && iconifyName === null ? url : urlLabel}
         </Link>
+        </div>
     );
   }
   return null;
@@ -69,6 +82,7 @@ function Reference({
   name,
   url,
   urlLabel,
+  iconifyName,
   recommandation,
 }: Readonly<ReferenceItem>) {
   return (
@@ -76,7 +90,7 @@ function Reference({
       <div className="text--left padding-horiz--md">
         <h3 className={clsx(styles.name)}>{name}</h3>
         <p className={clsx(styles.recommandation)}>{recommandation}</p>
-        <Url url={url} urlLabel={urlLabel} />
+        <Url url={url} urlLabel={urlLabel} iconifyName={iconifyName} />
       </div>
     </div>
   );
