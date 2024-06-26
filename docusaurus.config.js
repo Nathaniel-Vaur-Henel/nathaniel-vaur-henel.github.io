@@ -102,7 +102,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      colorMode: {
+          defaultMode: 'light',
+          disableSwitch: false,
+          respectPrefersColorScheme: true,
+      },
       image: "img/logo.png",
       navbar: {
         title: "Nathaniel Vaur Henel",
