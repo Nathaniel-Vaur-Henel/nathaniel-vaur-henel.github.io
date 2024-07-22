@@ -62,3 +62,5 @@ Utilisations des actions GitHub
 npm run swizzle @docusaurus/theme-classic BlogPostItem -- --wrap --typescript
 npm run swizzle @docusaurus/theme-classic DocItem -- --wrap --typescript
 ```
+
+Quand l'export IntelliJ ne veut pas fonctionner https://md-to-pdf.fly.dev/

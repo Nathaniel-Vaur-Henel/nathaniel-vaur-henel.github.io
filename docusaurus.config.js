@@ -88,6 +88,15 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "crafters",
+        path: "crafters",
+        routeBasePath: "crafters",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
   ],
 
   themeConfig:
@@ -111,6 +120,7 @@ const config = {
           { to: "/dev-workout", label: "Dév Workout", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
 
+          { to: "/crafters/nathaniel-vaur-henel", label: "L'équipe", position: "right" },
           { type: "search", position: "right"},
           { to: "/devento/tags", label: "Tags Devento", position: "right" },
           {
@@ -150,31 +160,18 @@ const config = {
             ],
           },
           {
-            title: "Références",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com",
-              },
-              {
-                label: "Wikipédia",
-                href: "https://fr.wikipedia.org/",
-              },
-              {
-                label: "Baeldung",
-                href: "https://www.baeldung.com/",
-              },
-            ],
-          },
-          {
             title: "Me retrouver",
             items: [
               {
-                label: "GitHub",
-                href: "https://github.com/Nathaniel-Vaur-Henel",
+                label: "Malt",
+                href: "https://www.malt.fr/profile/nathanielvaurhenel",
               },
               {
                 label: "Linkedin",
+                href: "https://github.com/Nathaniel-Vaur-Henel",
+              },
+              {
+                label: "GitHub",
                 href: "https://github.com/Nathaniel-Vaur-Henel",
               },
             ],
