@@ -163,16 +163,16 @@ const config = {
             title: "Me retrouver",
             items: [
               {
-                label: "Malt",
-                href: "https://www.malt.fr/profile/nathanielvaurhenel",
-              },
-              {
-                label: "Linkedin",
-                href: "https://github.com/Nathaniel-Vaur-Henel",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/nathaniel-vaur-henel/",
               },
               {
                 label: "GitHub",
                 href: "https://github.com/Nathaniel-Vaur-Henel",
+              },
+              {
+                label: "Malt",
+                href: "https://www.malt.fr/profile/nathanielvaurhenel",
               },
             ],
           },
