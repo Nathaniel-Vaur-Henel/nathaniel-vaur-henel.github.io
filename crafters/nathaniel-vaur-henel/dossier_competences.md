@@ -5,7 +5,7 @@ description: Nathaniel Vaur Henel, dossier de compétences
 
 # Nathaniel Vaur Henel
 
-_Télécharger au format [PDF](dossier_competences.pdf)_
+_Télécharger au format [PDF](./Nathaniel_Vaur_Henel-dossier_competences.pdf)_
 
 ## Freelance Formateur, Tech leader et Expert Java
 
@@ -49,6 +49,33 @@ Animation d'ateliers
 
 
 ## Expériences Professionnelles
+
+### DigiCrafters
+
+#### Fondateur et dirigeant de DigiCrafters
+
+Fort de 20 ans d'expérience dans le développement, j'ai créé ma propre entreprise afin de développer différentes activités.
+
+#### Consultant expert java  
+
+_Depuis septembre 2024  
+Nantes_
+
+J'accompagne mes clients en leur apportant mon expertise autant pour leurs évolutions techniques que la progression de leurs équipes de développement.
+
+#### Intervenant en école supérieure d'informatique
+
+_Depuis l'année scolaire 2023/2024  
+Nantes_  
+
+Interventions auprès d'étudiants en bachelor et master (ESGI - Groupe Eductive ; Ynov) 
+
+Que ce soit lors d'interventions classiques (cours magistral + TD) ou lors de coachings personnalisés / de  groupes, j'apporte aux étudiants mon expertise technique et méthodologique ainsi que ma connaissance des attentes du monde professionnel.
+
+- Développement mobile avec Android.
+- Développement java.
+- Gestion de projet agile/scrum.
+- Découverte de l'entrepreneuriat
 
 ### SNCF
 
@@ -122,7 +149,7 @@ Le projet principal consistait à transférer en Italie la gestion technique des
 
 > **Compétences** : Java, Java8, Spring, Atlassian JIRA, IntelliJ IDEA, Sonar, Groovy, SonarQube, Grails, PostgreSQL, GWT, JUnit, Mockito, webservices, REST
 
-### SOGITEC
+### Sogitec
 
 #### Ingénieur développement logiciels JAVA
 
@@ -148,7 +175,7 @@ J'avais comme mission d'assurer la reprise, et l'amélioration des fonctionnalit
 
 > **Compétences** : JAVA/JEE, java 11, IntelliJ, Spring, Web Services, XML, IntelliJ IDEA, SOAP UI, Swing
 
-### COSIUM
+### Cosium
 
 #### Ingénieur en développement Java
 
