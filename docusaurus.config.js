@@ -207,7 +207,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nathaniel Vaur Henel. Built with <a href="https://docusaurus.io/" target="_about" class="footer__link-item">Docusaurus</a>, 💻, 💪🏾 and 🖤.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nathaniel Vaur Henel. Built with <a href="https://docusaurus.io/" target="_about" class="footer__link-item">Docusaurus</a>, 💻, ☕, 💪🏾 and 🖤.`,
       },
       prism: {
         theme: prismThemes.github,
