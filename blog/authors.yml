@@ -1,5 +1,12 @@
 nvh:
   name: Nathaniel Vaur Henel
   title: Tech Lead, Développeur sénior, formateur et créateur de contenu
-  url: https://github.com/Nathaniel-Vaur-Henel
+  description: Fort de deux décennies de développement, j'ai acquis une expertise technique en développement back-end Java associé au framework Spring. Avec le temps, j'ai développé une approche "artisanale" du code, avec la volonté de maitriser toute la chaine de compétences, du recueil du besoin à la maintenance, avec un souci d'efficacité et de qualité.
   image_url: https://github.com/Nathaniel-Vaur-Henel.png
+  page:
+    permalink: /nathaniel-vaur-henel
+  socials:
+    dev sensei: https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel
+    linkedin: nathaniel-vaur-henel
+    github: nathaniel-vaur-henel
+    malt: https://www.malt.fr/profile/nathanielvaurhenel
