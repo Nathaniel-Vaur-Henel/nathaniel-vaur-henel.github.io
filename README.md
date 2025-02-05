@@ -17,7 +17,7 @@ La publication est planifiée grâce à [merge-schedule-action](https://github.c
 ### Lancer un server de test en local
 
 ```shell
-$ yarn run start
+yarn run start
 ```
 
 Lance un serveur local et ouvre la page dans le navigateur par défaut.
@@ -25,7 +25,7 @@ Lance un serveur local et ouvre la page dans le navigateur par défaut.
 ### Build
 
 ```shell
-$ yarn run build
+yarn run build
 ```
 
 Génère le contenu static dans le répertoire `build`.
@@ -33,7 +33,7 @@ Génère le contenu static dans le répertoire `build`.
 ### Lancement du site en local 
 
 ```shell
-$ yarn run serve
+yarn run serve
 ```
 
 Génère le contenu static dans le répertoire `build`.
