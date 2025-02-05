@@ -202,14 +202,15 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
 
 ## Ressources
 
-### Fiches à télécharger
-
-- [pdf](java11_17_aide-mémoire.pdf)
-- [md](java11_17_aide-mémoire.markdown)
-
 ### Sources
 
 Comme indiqué au fur et à mesure, les [Release Notes](https://www.oracle.com/java/technologies/java-se-glance.html) des différentes versions de Java.
+
+### Fiches à télécharger
+
+Tu peux télécharger ce devento en plusieurs formats :
+- [pdf](java11_17_aide-mémoire.pdf)
+- [md](java11_17_aide-mémoire.markdown)
 
 ---
 

@@ -128,13 +128,15 @@ subscription.unsubscribe(); // Stoppe l’écoute de l’Observable
 ## Ressources
 
 ### Documentation Officielle Angular
+
 - [https://angular.io/docs](https://angular.dev/overview)
 - [RxJS](https://rxjs.dev/)
 
 ### Fiches à télécharger
 
-- [pdf](angular_rxjs.pdf)
-- [md](angular_rxjs.markdown)
+Tu peux télécharger ce devento en plusieurs formats :
+- [pdf](angular_rxjs_aide-mémoire.pdf)
+- [md](angular_rxjs_aide-mémoire.markdown)
 
 
 ---

@@ -215,11 +215,6 @@ Bon, là, pas le choix, il faut des exemples efficaces !
 
 ## Ressources
 
-### Fiches à télécharger
-
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](regex_aide-mémoire.pdf)
-- [md](regex_aide-mémoire.markdown)
 
 ### Sources
 
@@ -229,10 +224,12 @@ Tu peux télécharger ce devento en plusieurs formats :
 - [MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Expressions_r%C3%A9guli%C3%A8res) pour les regex en JavaScript.
 - Mon repository [Dev Workout](https://github.com/Nathaniel-Vaur-Henel/dev-workout) sur GitHub pour des exercices sur les regex. Et bien d'autres si tu veux t'entrainer.
 
-### Auteurs
+### Fiches à télécharger
 
-Nathaniel Vaur Henel
+Tu peux télécharger ce devento en plusieurs formats :
+- [pdf](regex_aide-mémoire.pdf)
+- [md](regex_aide-mémoire.markdown)
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par Nathaniel Vaur Henel sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_

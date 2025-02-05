@@ -63,4 +63,4 @@ npm run swizzle @docusaurus/theme-classic BlogPostItem -- --wrap --typescript
 npm run swizzle @docusaurus/theme-classic DocItem -- --wrap --typescript
 ```
 
-Quand l'export IntelliJ ne veut pas fonctionner https://md-to-pdf.fly.dev/
+Pour la génération des exports en PDF, j'utilise https://md-to-pdf.fly.dev/ en passant la couleur en `darkred` et en conservant le moteur de conversion à weasyprint

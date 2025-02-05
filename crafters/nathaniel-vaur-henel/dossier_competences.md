@@ -18,6 +18,7 @@ J'ai autant travaillé pour des starts-up innovantes que des grands groupes, des
 Avec le temps, j'ai développé une approche "artisanale" du code, avec la volonté de maitriser toute la chaine de compétences, du recueil du besoin à la maintenance, avec un souci d'efficacité et de qualité.
 
 Dans vos équipes, je me positionne volontiers en tant que tech leader, ce qui pour moi veut dire :
+
 - Accompagner vos équipes et les faire progresser techniquement et méthodologiquement
 - Assurer la qualité, la maintenabilité et la sécurité de vos projets
 

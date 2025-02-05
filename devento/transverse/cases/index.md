@@ -111,20 +111,16 @@ SCREAMING_SNAKE_CASE : les mots sont séparés par des underscores et en majuscu
 
 ## Ressources
 
-### Fiches à télécharger
-
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](casses_aide_mémoire.pdf)
-- [md](casses_aide_mémoire.markdown)
-
 ### Sources
 
 - [Wikipédia](https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re), parce que sans Wikipédia, Internet ne serait pas ce qu'il est aujourd'hui.
 
-### Auteurs
+### Fiches à télécharger
 
-Nathaniel Vaur Henel
+Tu peux télécharger ce devento en plusieurs formats :
+- [pdf](casses_aide-mémoire.pdf)
+- [md](casses_aide-mémoire.markdown)
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par Nathaniel Vaur Henel sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
