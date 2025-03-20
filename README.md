@@ -14,6 +14,12 @@ La publication, le déploiement et l'hébergement sont gérés par [GitHub Pages
 
 La publication est planifiée grâce à [merge-schedule-action](https://github.com/gr2m/merge-schedule-action)
 
+### Installer Yarn
+
+```shell
+npm install --global yarn
+```
+
 ### Lancer un server de test en local
 
 ```shell
@@ -44,7 +50,7 @@ Utilisations des actions GitHub
 
 ## Mise à jour des dépendances
 
-- Installe [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) si ce n'est déjà fait.
+- Installe [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) avec `npm install -g npm-check-updates`
 - Mets à jour le `package.json` avec `ncu --upgrade`.
 - Mets à jour les dépendances avec `npm update`.
 - Vérifie que tout fonctionne correctement.
