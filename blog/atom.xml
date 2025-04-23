@@ -2,12 +2,142 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nathaniel-vaur-henel.github.io/blog</id>
     <title>Nathaniel Vaur Henel, ton dév sensei Blog</title>
-    <updated>2024-05-09T00:00:00.000Z</updated>
+    <updated>2025-04-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nathaniel-vaur-henel.github.io/blog"/>
     <subtitle>Nathaniel Vaur Henel, ton dév sensei Blog</subtitle>
     <icon>https://nathaniel-vaur-henel.github.io/img/logo.png</icon>
     <rights>Copyright © 2025 Nathaniel Vaur Henel</rights>
+    <entry>
+        <title type="html"><![CDATA[IntelliJ IDEA 2025.1 : une nouvelle lettre d'amour aux développeurs]]></title>
+        <id>https://nathaniel-vaur-henel.github.io/blog/intellij-2025</id>
+        <link href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025"/>
+        <updated>2025-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tour d'horizon détaillé des nouveautés d'IntelliJ IDEA 2025.1 : IA, Java 24, Kotlin K2, nouvelle UX, outils DevOps... tout ce qu'il faut savoir.]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>Je reviens après presque un an d'absence ! Pour une note plus courte, mais j'ai plein de nouveaux projets dans le disque dur !<br>
+<!-- -->Je vous en reparlerai bientôt, mais pour l'instant, parlons de la nouvelle version d'IntelliJ IDEA.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="un-mot-damour-à-mon-ide">Un mot d'amour à mon IDE<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#un-mot-damour-%C3%A0-mon-ide" class="hash-link" aria-label="Lien direct vers Un mot d'amour à mon IDE" title="Lien direct vers Un mot d'amour à mon IDE">​</a></h2>
+<p>Je suis fidèle à IntelliJ IDEA depuis plus de dix ans. Entre nous, c'est une relation qui dure.</p>
+<p>Après tant d'années, comment décrire l'environnement IntelliJ ? Voici le tableau : un fauteuil massant, un plaid douillet, une tasse de ta boisson préférée à la température idéale et qui se remplit par magie, un bon feu de cheminée qui crépite... <strong>IntelliJ c'est l'IDE cocooning qui crée les conditions idéales pour coder sereinement</strong>, sans friction. A peine ton projet est ouvert que tout fonctionne déjà. Pas de surprises, pas de bricolage. Il est là pour que tu te concentres sur ton boulot, pas sur de la configuration.</p>
+<p>En avril 2025, JetBrains, l'éditeur de IntelliJ IDEA, a lancé sa dernière mise à jour. J'ai donc plongé dans cette version 2025.1 dès sa sortie. Voici ce que j'en retiens.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jetbrains--intellij-idea--la-philosophie-du-confort">JetBrains &amp; IntelliJ IDEA : la philosophie du confort<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#jetbrains--intellij-idea--la-philosophie-du-confort" class="hash-link" aria-label="Lien direct vers JetBrains &amp; IntelliJ IDEA : la philosophie du confort" title="Lien direct vers JetBrains &amp; IntelliJ IDEA : la philosophie du confort">​</a></h2>
+<p>IntelliJ IDEA est un environnement de développement intégré (IDE) conçu par <a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">JetBrains</a>, une entreprise tchèque bien connue dans l’univers des outils pour développeurs.</p>
+<p>JetBrains, c’est l’éditeur derrière des outils populaires comme :</p>
+<ul>
+<li><strong>PyCharm</strong> (pour Python)</li>
+<li><strong>WebStorm</strong> (pour JavaScript/TypeScript)</li>
+<li><strong>PhpStorm</strong> (pour PHP)</li>
+<li><strong>Rider</strong> (pour .NET)</li>
+<li>Et bien sûr, <strong>IntelliJ IDEA</strong>, leur vaisseau amiral pour le développement Java, Kotlin, et bien plus encore.</li>
+</ul>
+<p>Mais JetBrains, ce n’est pas juste une suite d’outils. C’est une <strong>philosophie du développement</strong> : celle qui considère que ton environnement de travail doit s’adapter à toi, et non l’inverse.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Moins de friction, plus de flow</div><div class="admonitionContent_BuS1"><p>Tout dans IntelliJ est pensé pour que tu restes dans ta zone de concentration. Navigation rapide, complétion intelligente, refactorings puissants, gestion fluide des projets... L’outil t’assiste sans t’envahir.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="et-intellij-dans-tout-ça-">Et IntelliJ, dans tout ça ?<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#et-intellij-dans-tout-%C3%A7a-" class="hash-link" aria-label="Lien direct vers Et IntelliJ, dans tout ça ?" title="Lien direct vers Et IntelliJ, dans tout ça ?">​</a></h3>
+<p><strong>IntelliJ IDEA est l’IDE que JetBrains développe depuis plus de 20 ans. À l’origine centré sur Java, il s’est ouvert progressivement à d’autres langages</strong> : Kotlin (forcément), Scala, Groovy, SQL, JavaScript, et tous ceux que tu rencontres dans un projet moderne.</p>
+<p>Il existe en deux éditions :</p>
+<ul>
+<li><strong>Community</strong> : open-source, gratuite, avec un très bon socle pour les projets Java/Kotlin.</li>
+<li><strong>Ultimate</strong> : version commerciale, avec des fonctionnalités avancées pour le web, le backend, les bases de données, les frameworks, et les outils DevOps.</li>
+</ul>
+<p>J’utilise IntelliJ IDEA Ultimate au quotidien et je le tiens toujours à jour. Au-delà des fonctionnalités, cet IDE fait tout pour que tu sois bien : <strong>il t’installe dans ton environnement comme dans un espace de travail optimisé et personnalisé. La version 2025.1 apporte une belle série d’améliorations, dans cette logique de confort et d'efficacité.</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jetbrains-ai--plus-discret-plus-intelligent-mieux-intégré">JetBrains AI : plus discret, plus intelligent, mieux intégré<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#jetbrains-ai--plus-discret-plus-intelligent-mieux-int%C3%A9gr%C3%A9" class="hash-link" aria-label="Lien direct vers JetBrains AI : plus discret, plus intelligent, mieux intégré" title="Lien direct vers JetBrains AI : plus discret, plus intelligent, mieux intégré">​</a></h2>
+<p>Sans aucun doute, <strong>la refonte de l'IA est la nouveauté majeure</strong> de cette version.</p>
+<p>Bien plus qu'un assistant en surcouche, <strong>JetBrains AI est une extension naturelle de l'IDE</strong>, pensée pour t'aider quand tu en as besoin, sans t'interrompre quand tu n'en veux pas.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ce-qui-change-concrètement-">Ce qui change concrètement :<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#ce-qui-change-concr%C3%A8tement-" class="hash-link" aria-label="Lien direct vers Ce qui change concrètement :" title="Lien direct vers Ce qui change concrètement :">​</a></h3>
+<ul>
+<li><strong>Complétion de code IA illimitée</strong> (modèles GPT-like), désormais gratuite.</li>
+<li><strong>Compréhension contextuelle multi-fichiers</strong> : tu peux poser une question en rapport avec plusieurs classes dispersées, il comprend.</li>
+<li><strong>Modification guidée du code depuis le chat IA</strong> : tu sélectionnes un morceau de code, tu poses ta question, et tu peux appliquer les suggestions automatiquement.</li>
+<li><strong>Choix de modèle</strong> : GPT-4.1, Claude 3, Gemini 2, et même exécution locale si tu veux garder ton code chez toi.</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Une IA au service du flow</div><div class="admonitionContent_BuS1"><p>Pas besoin de recontextualiser ou de quitter l'IDE. L'IA agit là où tu travailles. Et tu peux très bien ne jamais l'ouvrir si tu préfères coder seul.</p></div></div>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Honnêteté</div><div class="admonitionContent_BuS1"><p>Je n'ai pas encore utilisé cette partie, mais je compte m'y mettre bientôt.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="java-24--support-complet-et-avancé">Java 24 : support complet et avancé<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#java-24--support-complet-et-avanc%C3%A9" class="hash-link" aria-label="Lien direct vers Java 24 : support complet et avancé" title="Lien direct vers Java 24 : support complet et avancé">​</a></h2>
+<p>JetBrains garde son statut de référence en matière de support Java. <strong>La version 2025.1 est totalement compatible avec Java 24</strong>, y compris les fonctionnalités en préversion.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="les-apports-majeurs-">Les apports majeurs :<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#les-apports-majeurs-" class="hash-link" aria-label="Lien direct vers Les apports majeurs :" title="Lien direct vers Les apports majeurs :">​</a></h3>
+<ul>
+<li><strong>Support des collecteurs de flux</strong> (<code>Stream.collect(...)</code>), devenus stables avec cette version.</li>
+<li>Le <strong>debugger affiche la structure complète des flux</strong>, avec inspection directe des étapes de transformation.</li>
+<li>Tu peux <strong>activer les features preview</strong> (comme les déclarations record patterns étendues) en un clic.</li>
+<li>Les inspections IntelliJ <strong>s'adaptent à la version du JDK</strong> configurée, sans alerter inutilement.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kotlin--k2-entre-en-scène">Kotlin : K2 entre en scène<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#kotlin--k2-entre-en-sc%C3%A8ne" class="hash-link" aria-label="Lien direct vers Kotlin : K2 entre en scène" title="Lien direct vers Kotlin : K2 entre en scène">​</a></h2>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Si tu ne sais pas ce qu’est Kotlin</div><div class="admonitionContent_BuS1"><p><strong>Kotlin</strong> est un langage de programmation moderne, concis et expressif, développé par JetBrains. Il fonctionne parfaitement avec Java, et il est même officiellement supporté par Google pour le développement Android.</p><p>Tu peux l’utiliser pour développer des applications backend, mobiles, desktop, ou même pour faire du scripting ou du multiplateforme (grâce à Kotlin Multiplatform).</p><p>Si tu viens du monde Java, tu devrais rapidement te sentir chez toi. Avec en plus moins de boilerplate, des null-safety intégrés, des coroutines pour la gestion de la concurrence, et une syntaxe agréable.</p></div></div>
+<p>Kotlin fait un grand pas avec l'<strong>adoption par défaut de K2, son nouveau moteur d'analyse</strong>.
+Il propose une amélioration profonde de la stabilité et des performances, notamment dans les projets complexes.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ce-qui-change-avec-k2-">Ce qui change avec K2 :<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#ce-qui-change-avec-k2-" class="hash-link" aria-label="Lien direct vers Ce qui change avec K2 :" title="Lien direct vers Ce qui change avec K2 :">​</a></h3>
+<ul>
+<li><strong>Analyse syntaxique et sémantique plus rapide</strong></li>
+<li>Moins de faux positifs dans les inspections</li>
+<li>Meilleure prise en charge des plugins du compilateur</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="il-y-en-a-un-peu-plus-je-vous-le-mets-quand-même-">Il y en a un peu plus, je vous le mets quand même ?<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#il-y-en-a-un-peu-plus-je-vous-le-mets-quand-m%C3%AAme-" class="hash-link" aria-label="Lien direct vers Il y en a un peu plus, je vous le mets quand même ?" title="Lien direct vers Il y en a un peu plus, je vous le mets quand même ?">​</a></h3>
+<ul>
+<li><strong>Kotlin Notebooks</strong> : tu peux désormais écrire des blocs de code interactifs, avec rendu en ligne et exécution pas à pas. Idéal pour documenter une lib ou expliquer un algorithme.</li>
+<li><strong>Correctifs KDoc intelligents</strong> : IntelliJ complète automatiquement les noms qualifiés dans les tags <code>@link</code>.</li>
+<li><strong>Résolution de dépendances plus fiable</strong> dans les scripts <code>.kts</code> (notamment avec Gradle ou Compose).</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="un-terminal-repensé">Un terminal repensé<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#un-terminal-repens%C3%A9" class="hash-link" aria-label="Lien direct vers Un terminal repensé" title="Lien direct vers Un terminal repensé">​</a></h2>
+<p>Le terminal intégré à IntelliJ IDEA a toujours été pratique.
+Avec la version 2025.1, <strong>JetBrains introduit une nouvelle architecture de terminal</strong>, plus moderne et robuste (encore en bêta).</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quest-ce-que-ça-change-">Qu'est-ce que ça change ?<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#quest-ce-que-%C3%A7a-change-" class="hash-link" aria-label="Lien direct vers Qu'est-ce que ça change ?" title="Lien direct vers Qu'est-ce que ça change ?">​</a></h3>
+<ul>
+<li>Le terminal repose sur un <strong>moteur xterm conforme</strong>, plus fidèle au comportement natif.</li>
+<li>L'affichage est géré <strong>via l'éditeur lui-même</strong>, ce qui permet une meilleure gestion du focus, de la sélection et du rendu.</li>
+<li>Moins de plantages, moins de latences, notamment quand tu lances des tâches lourdes (type build Gradle ou npm install).</li>
+</ul>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Encore en bêta</div><div class="admonitionContent_BuS1"><p>La nouvelle version est activable dans les paramètres, à toi de voir si tu veux l'adopter dès maintenant. Personnellement, je suis en train de la tester.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ux--tout-pour-améliorer-ton-quotidien">UX : tout pour améliorer ton quotidien<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#ux--tout-pour-am%C3%A9liorer-ton-quotidien" class="hash-link" aria-label="Lien direct vers UX : tout pour améliorer ton quotidien" title="Lien direct vers UX : tout pour améliorer ton quotidien">​</a></h2>
+<p><strong>JetBrains continue d'affiner l'expérience utilisateur</strong> avec une série de petites évolutions qui, mises bout à bout, améliorent sensiblement le confort de travail.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quelques-exemples-">Quelques exemples :<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#quelques-exemples-" class="hash-link" aria-label="Lien direct vers Quelques exemples :" title="Lien direct vers Quelques exemples :">​</a></h3>
+<ul>
+<li><strong>Fusion du menu principal avec la toolbar</strong> sur Windows et Linux, pour un design plus épuré et plus de place pour le code.</li>
+<li><strong>Recherche dans les aperçus Markdown</strong> : tu peux enfin retrouver une phrase dans un README sans avoir à ouvrir le fichier brut.</li>
+<li><strong>Création rapide de fichiers</strong> avec l'icône <code>+</code> dans la vue Projet, qui affiche directement les templates de fichiers.</li>
+<li><strong>Dialogues natifs</strong> pour l'ouverture et l'enregistrement de fichiers sur Windows.</li>
+<li><strong>Mise à jour automatique des plugins</strong> : l'IDE peut vérifier, télécharger et appliquer les mises à jour sans intervention.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="devops-containerisation-et-intégration--tout-est-là">DevOps, containerisation et intégration : tout est là<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#devops-containerisation-et-int%C3%A9gration--tout-est-l%C3%A0" class="hash-link" aria-label="Lien direct vers DevOps, containerisation et intégration : tout est là" title="Lien direct vers DevOps, containerisation et intégration : tout est là">​</a></h2>
+<p>IntelliJ ne s'arrête pas au code. Il pense aussi aux développeurs qui déploient, monitorent, ou travaillent avec des outils cloud.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nouveautés-notables-">Nouveautés notables :<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#nouveaut%C3%A9s-notables-" class="hash-link" aria-label="Lien direct vers Nouveautés notables :" title="Lien direct vers Nouveautés notables :">​</a></h3>
+<ul>
+<li><strong>Reconnaissance des Containerfiles</strong> : IntelliJ les traite désormais comme des Dockerfiles, avec tout le support syntaxique et les suggestions.</li>
+<li>Les <strong>instructions Docker en minuscules</strong> (<code>from</code>, <code>run</code>, <code>copy</code>) sont acceptées sans alerte.</li>
+<li><strong>Export Kafka simplifié</strong> : tu peux extraire les messages d'un topic Kafka directement en JSON, CSV ou TSV, pour les réutiliser ailleurs.</li>
+<li><strong>Support d'OpenTofu</strong> : IntelliJ comprend les fichiers <code>.tofu</code>, te permet de les valider, exécuter ou prévisualiser comme pour Terraform.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="git-et-gestion-de-version--plus-clair-plus-souple">Git et gestion de version : plus clair, plus souple<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#git-et-gestion-de-version--plus-clair-plus-souple" class="hash-link" aria-label="Lien direct vers Git et gestion de version : plus clair, plus souple" title="Lien direct vers Git et gestion de version : plus clair, plus souple">​</a></h2>
+<p>Les développeurs qui vivent dans Git vont apprécier ces nouveautés :</p>
+<ul>
+<li><strong>Infos de commit dans la vue de diff</strong> : auteur, date, message, hash complet.</li>
+<li><strong>Exécution conditionnelle des hooks Git</strong> : possibilité de les désactiver temporairement.</li>
+<li><strong>Mise à jour automatique des branches</strong> après ajout ou modification d'un remote.</li>
+<li><strong>Suppression de l'interface de commit modale</strong> : seul le mode non modale reste, mais un plugin existe pour revenir à l'ancien comportement si tu préfères.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tooling--gradle-jars-intégration">Tooling : Gradle, JARs, intégration<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#tooling--gradle-jars-int%C3%A9gration" class="hash-link" aria-label="Lien direct vers Tooling : Gradle, JARs, intégration" title="Lien direct vers Tooling : Gradle, JARs, intégration">​</a></h2>
+<p>Quelques ajustements bienvenus ont été réalisés pour celles et ceux qui creusent un peu plus loin que l'IDE :</p>
+<ul>
+<li><strong>Support de Gradle 8.13</strong></li>
+<li><strong>Définition explicite du JVM utilisé par le Daemon Gradle</strong></li>
+<li><strong>Téléchargement automatique des sources de bibliothèques</strong>, y compris sur les dépôts internes ou Nexus</li>
+<li>Meilleure gestion des <strong>JARs multi-release</strong> avec plusieurs niveaux de langage</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pour-conclure">Pour conclure<a href="https://nathaniel-vaur-henel.github.io/blog/intellij-2025#pour-conclure" class="hash-link" aria-label="Lien direct vers Pour conclure" title="Lien direct vers Pour conclure">​</a></h2>
+<p>Avec cette version d'IntelliJ IDEA 2025.1, JetBrains continue de prendre soin de nous.</p>
+<p>Elle ne révolutionne pas l'outil, encore qu'il va falloir que j'essaie de plus près la partie IA tant attendue, mais elle renforce tout ce qui en fait <strong>le compagnon de travail idéal pour un développeur</strong> : productivité, stabilité et clarté.</p>
+<p>Que tu sois Java, Kotlin, Scala, DevOps ou tout à la fois, <strong>tu trouveras dans cette version de quoi rendre tes journées de développement plus fluides, plus agréables, et surtout plus efficaces</strong>.</p>
+<p>Je l'ai adoptée dès sa sortie. Et je ne vois aucune raison de ne pas faire de même.</p>]]></content>
+        <author>
+            <name>Nathaniel Vaur Henel</name>
+        </author>
+        <category label="Java" term="Java"/>
+        <category label="développement" term="développement"/>
+        <category label="Kotlin" term="Kotlin"/>
+        <category label="IntelliJ" term="IntelliJ"/>
+        <category label="JetBrains" term="JetBrains"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Paginer ses résultats avec Spring]]></title>
         <id>https://nathaniel-vaur-henel.github.io/blog/spring-pagination</id>
