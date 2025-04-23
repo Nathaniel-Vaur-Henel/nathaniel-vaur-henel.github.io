@@ -7,7 +7,6 @@ tags:
   - écriture
   - développement
 # pour ajouter des tags à la page
-image: https://i.imgur.com/mErPwqL.png
 keywords:
   - devento
   - aide-mémoire
