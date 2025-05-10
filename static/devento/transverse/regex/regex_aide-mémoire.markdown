@@ -4,7 +4,7 @@
 
 - `^` : Début de chaîne
 - `$` : Fin de chaîne ou fin de ligne
-- `.` : N’importe quel caractère
+- `.` : N'importe quel caractère
 - `|` : Ou (a|b pour a ou b)
 - `( )` : Délimiteur de groupe
 - `[ ]` : Délimiteur d'ensemble
@@ -60,4 +60,4 @@
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur [https://dev-sensei.digicrafters.fr](https://dev-sensei.digicrafters.fr) par [Nathaniel Vaur Henel](https://dev-sensei.digicrafters.fr/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_

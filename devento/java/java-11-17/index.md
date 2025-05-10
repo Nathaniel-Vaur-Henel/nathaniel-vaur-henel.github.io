@@ -155,7 +155,7 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
   ```java
   NumberFormat.getCompactNumberInstance(Locale.FRANCE, NumberFormat.Style.LONG);
   ```
-- `NumberFormat` : ajout d’un formatage monnaie, avec `Locale` : $3.24, 5,61€, etc. [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
+- `NumberFormat` : ajout d'un formatage monnaie, avec `Locale` : $3.24, 5,61€, etc. [@since Java 14](https://www.oracle.com/java/technologies/javase/14all-relnotes.html#NewFeature)
   ```java
   NumberFormat.getCurrencyInstance(Locale.FRANCE)
   ```
@@ -192,7 +192,7 @@ Tu peux cumuler toutes ces fonctionnalités entre elles !
       System.out.println(employee.getEmployeeId());
   }
   ```
-- `Stream.toList` : afin d’éviter de passer par un `.collect(Collectors.toList())` [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
+- `Stream.toList` : afin d'éviter de passer par un `.collect(Collectors.toList())` [@since Java 16](https://www.oracle.com/java/technologies/javase/16all-relnotes.html#NewFeature)
   ```java
   // avant
   List.of("some","thing").stream().collect(Collectors.toList());
@@ -209,9 +209,9 @@ Comme indiqué au fur et à mesure, les [Release Notes](https://www.oracle.com/j
 ### Fiches à télécharger
 
 Tu peux télécharger un aide-mémoire de ce Devento en :
-- [📥 Version PDF](java11_17_aide-mémoire.pdf)
-- [📥 Version Markdown](java11_17_aide-mémoire.markdown)
+- [📥 Version PDF](/devento/java/java-11-17/java_11_17_aide-mémoire.pdf)
+- [📥 Version Markdown](/devento/java/java-11-17/java_11_17_aide-mémoire.markdown)
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur [https://dev-sensei.digicrafters.fr](https://dev-sensei.digicrafters.fr) par [Nathaniel Vaur Henel](https://dev-sensei.digicrafters.fr/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_

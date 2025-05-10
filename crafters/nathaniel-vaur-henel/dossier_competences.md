@@ -35,7 +35,7 @@ Je peux aussi assurer les rôles de développeur expert ou formateur, même si j
 
 #### Autres compétences techniques
 
-> Algorithmes et structures de données, Angular, Architecture logicielle, AssertJ, Atlassian JIRA, CI/CD, Développement full-stack, Développement FullStack, Gestion de base de données (SQL, NoSQL, etc.), Gherkin, Git, Git/Github, Gitlab, Gitlab CI/CD, Grails, HTML5, Intégration d’une API externe, IntelliJ IDEA, JavaScript, JSON, JUnit, Mockito, Nettoyage et prétraitement des données, Open API, Optimisation des performances, PostgreSQL, React Native, React.js, Sonar, SonarQube, Swing, Tests et assurance qualité, XML
+> Algorithmes et structures de données, Angular, Architecture logicielle, AssertJ, Atlassian JIRA, CI/CD, Développement full-stack, Développement FullStack, Gestion de base de données (SQL, NoSQL, etc.), Gherkin, Git, Git/Github, Gitlab, Gitlab CI/CD, Grails, HTML5, Intégration d'une API externe, IntelliJ IDEA, JavaScript, JSON, JUnit, Mockito, Nettoyage et prétraitement des données, Open API, Optimisation des performances, PostgreSQL, React Native, React.js, Sonar, SonarQube, Swing, Tests et assurance qualité, XML
 
 #### Langues
 
@@ -117,12 +117,12 @@ Au sein de ce plateau, composé de 300 personnes, j'étais responsable des missi
 **Commerce de Détail**  
 _octobre 2020 - février 2023 (2 ans et 5 mois)  
 Vertou  
-Mission effectuée dans le cadre du développement à l’international et de la modernisation du SI._
+Mission effectuée dans le cadre du développement à l'international et de la modernisation du SI._
 
 - Instauration des bonnes pratiques et consensus de développement dans la nouvelle équipe
-- Mise en place d’une librairie pour l’équipe
+- Mise en place d'une librairie pour l'équipe
 - Séparation des responsabilités des classes
-- Normalisation des pratiques de développement afin d’homogénéiser le code et de faciliter la maintenance et les évolutions
+- Normalisation des pratiques de développement afin d'homogénéiser le code et de faciliter la maintenance et les évolutions
 - Systématisation et qualité des tests automatisés
 - Renforcement et normalisation de la documentation
 - Homogénéité et scalabilité du code grâce aux codes review
@@ -139,14 +139,14 @@ _septembre 2019 - septembre 2020 (1 an et 1 mois)
 Saint-Herblain  
 Mission effectuée dans le cadre de la modernisation et de la cloudification du SI._ 
 
-Le projet principal consistait à transférer en Italie la gestion technique des applications jusqu’ici développées au siège social en France.
+Le projet principal consistait à transférer en Italie la gestion technique des applications jusqu'ici développées au siège social en France.
 
 - Développement de nouvelles fonctionnalités et correction de bug
-- Préparation et migration de JAVA 7 en JAVA 8/9 d’une partie des projets
+- Préparation et migration de JAVA 7 en JAVA 8/9 d'une partie des projets
 - Modernisation technique des projets, application des standards actuels
 - Instauration des bonnes pratiques de développement dans la nouvelle équipe
 - Qualité du code produit : documentation, homogénéité et scalabilité du code grâce aux codes review et au pair programming
-- Développement de tests unitaires et d’intégration
+- Développement de tests unitaires et d'intégration
 
 > **Compétences** : Java, Java8, Spring, Atlassian JIRA, IntelliJ IDEA, Sonar, Groovy, SonarQube, Grails, PostgreSQL, GWT, JUnit, Mockito, webservices, REST
 
@@ -163,8 +163,8 @@ J'étais en charge de l'analyse, de l'architecture, de la conception, des tests 
 
 J'avais comme mission d'assurer la reprise, et l'amélioration des fonctionnalités de l'ancien éditeur et de produire une architecture logicielle adaptable aux différentes architectures de documents techniques liés à plusieurs avions produits par Dassault.
 
-- Mise en place de l’architecture en JAVA 8 et utilisation de l'API propriétaire de l'éditeur XML
-- Mise en place de bonnes pratiques d’architecture et de méthodologie de développement
+- Mise en place de l'architecture en JAVA 8 et utilisation de l'API propriétaire de l'éditeur XML
+- Mise en place de bonnes pratiques d'architecture et de méthodologie de développement
 - Recueil des besoins auprès du responsable fonctionnel du projet
 - Développement de l'IHM des outils propres à l'addon en Swing
 - Développement de la partie client des Web Services en Soap, et aide à leur conception côté partie serveur ainsi que des clients
@@ -183,7 +183,7 @@ J'avais comme mission d'assurer la reprise, et l'amélioration des fonctionnalit
 **Edition de Logiciels**  
 _avril 2015 - mai 2018 (3 ans et 1 mois)  
 Versailles  
-Cosium développe des applications en lien avec l’audition et l’optique, de l’application de gestion à la prise de mesure oculaire en passant par l’essayage virtuel._
+Cosium développe des applications en lien avec l'audition et l'optique, de l'application de gestion à la prise de mesure oculaire en passant par l'essayage virtuel._
 
 ##### Projet 1 : Responsable d’application "Virtual Try On Manager"
 

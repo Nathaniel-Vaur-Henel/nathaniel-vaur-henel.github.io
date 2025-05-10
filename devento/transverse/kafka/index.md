@@ -34,16 +34,16 @@ Kafka est une **plateforme de streaming distribuée** qui permet de traiter et d
 
 ### Producers (Producteurs)
 
-Un **producer** (producteur) dans Kafka est une application ou un service qui **envoie des messages** dans un ou plusieurs **topics**. Il génère des données ou des événements qu’il souhaite transmettre à d’autres systèmes ou applications via Kafka.
+Un **producer** (producteur) dans Kafka est une application ou un service qui **envoie des messages** dans un ou plusieurs **topics**. Il génère des données ou des événements qu'il souhaite transmettre à d'autres systèmes ou applications via Kafka.
 
-- **Rôle** : Le producteur est responsable de la création et de l’envoi des événements dans Kafka. Il peut choisir le topic dans lequel les messages seront publiés, et Kafka se charge de les acheminer correctement.
-- **Exemple** : Une application de commande en ligne peut être un producteur qui envoie un message à Kafka chaque fois qu'une nouvelle commande est passée, afin que d'autres systèmes (comme la gestion des stocks ou le service de facturation) puissent y accéder et traiter l’événement.
+- **Rôle** : Le producteur est responsable de la création et de l'envoi des événements dans Kafka. Il peut choisir le topic dans lequel les messages seront publiés, et Kafka se charge de les acheminer correctement.
+- **Exemple** : Une application de commande en ligne peut être un producteur qui envoie un message à Kafka chaque fois qu'une nouvelle commande est passée, afin que d'autres systèmes (comme la gestion des stocks ou le service de facturation) puissent y accéder et traiter l'événement.
 
 ### Consumers (Consommateurs)
 
 Un **consumer** (consommateur) est une application ou un service qui **lit** les messages publiés dans Kafka. Contrairement aux producteurs, qui envoient des messages, les consommateurs sont chargés de récupérer et de traiter ces messages.
 
-- **Rôle** : Le consommateur se **connecte** à un ou plusieurs topics Kafka et **lire les messages** qu’ils contiennent. Il peut être configuré pour traiter les messages de manière séquentielle, ou pour les lire en parallèle afin d’optimiser le traitement.
+- **Rôle** : Le consommateur se **connecte** à un ou plusieurs topics Kafka et **lire les messages** qu'ils contiennent. Il peut être configuré pour traiter les messages de manière séquentielle, ou pour les lire en parallèle afin d'optimiser le traitement.
 - **Exemple** : Un système de gestion des stocks pourrait être un consommateur qui lit les messages des commandes passées (produits par les producteurs) pour mettre à jour les niveaux de stock dans la base de données.
 
 ### Topics
@@ -167,7 +167,7 @@ graph LR
 
 Ce schéma illustre le fonctionnement général de Kafka dans un environnement distribué et scalable.
 
-Le modèle partitionné permet de **scaler horizontalement**, et donc d’ajouter des consommateurs et producteurs selon les besoins.
+Le modèle partitionné permet de **scaler horizontalement**, et donc d'ajouter des consommateurs et producteurs selon les besoins.
 
 ## 6. Conclusion
 
@@ -188,9 +188,9 @@ Kafka est une solution moderne et robuste pour les entreprises ayant besoin de g
 ### Fiches à télécharger
 
 Tu peux télécharger un aide-mémoire de ce Devento en :
-- [📥 Version PDF](kafka_aide-mémoire.pdf)
-- [📥 Version Markdown](kafka_aide-mémoire.markdown)
+- [📥 Version PDF](/devento/transverse/kafka/kafka_aide-mémoire.pdf)
+- [📥 Version Markdown](/devento/transverse/kafka/kafka_aide-mémoire.markdown)
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur [https://dev-sensei.digicrafters.fr](https://dev-sensei.digicrafters.fr) par [Nathaniel Vaur Henel](https://dev-sensei.digicrafters.fr/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_

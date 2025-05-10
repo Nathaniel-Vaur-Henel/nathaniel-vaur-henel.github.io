@@ -19,7 +19,7 @@ const config = {
   favicon: "img/logo.png",
 
   // Set the production url of your site here
-  url: "https://nathaniel-vaur-henel.github.io/",
+  url: "https://dev-sensei.digicrafters.fr/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",

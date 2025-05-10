@@ -1,6 +1,6 @@
 # Readme
 
-Ce repo contient les sources de mon site https://nathaniel-vaur-henel.github.io/
+Ce repo contient les sources de mon site https://dev-sensei.digicrafters.fr/
 
 ## Développement du site
 

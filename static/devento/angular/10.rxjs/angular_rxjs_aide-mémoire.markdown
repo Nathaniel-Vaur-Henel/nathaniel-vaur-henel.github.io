@@ -49,11 +49,11 @@ Les opérateurs permettent de **manipuler les flux de données** dans RxJS.
 
 ### Opérateurs de combinaison
 - `merge(observable1, observable2)` : Fusionne plusieurs observables.
-- `concat(observable1, observable2)` : Exécute les observables l’un après l’autre.
+- `concat(observable1, observable2)` : Exécute les observables l'un après l'autre.
 
 ### Opérateurs temporels
 - `debounceTime(500)` : Ignore les valeurs rapides, utile pour limiter les appels API.
-- `throttleTime(1000)` : Limite la fréquence d’émission des valeurs.
+- `throttleTime(1000)` : Limite la fréquence d'émission des valeurs.
 
 ## Observables vs Promises
 
@@ -104,9 +104,9 @@ this.monService.getData().subscribe(data => {
 import { Subscription } from 'rxjs';
 
 let subscription: Subscription = this.monService.getData().subscribe();
-subscription.unsubscribe(); // Stoppe l’écoute de l’Observable
+subscription.unsubscribe(); // Stoppe l'écoute de l'Observable
 ```
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur [https://dev-sensei.digicrafters.fr](https://dev-sensei.digicrafters.fr) par [Nathaniel Vaur Henel](https://dev-sensei.digicrafters.fr/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_

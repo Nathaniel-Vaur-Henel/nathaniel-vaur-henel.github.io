@@ -117,9 +117,9 @@ SCREAMING_SNAKE_CASE : les mots sont séparés par des underscores et en majuscu
 ### Fiches à télécharger
 
 Tu peux télécharger un aide-mémoire de ce Devento en :
-- [📥 Version PDF](casses_aide-mémoire.pdf)
-- [📥 Version Markdown](casses_aide-mémoire.markdown)
+- [📥 Version PDF](/devento/transverse/cases/casses_aide-mémoire.pdf)
+- [📥 Version Markdown](/devento/transverse/cases/casses_aide-mémoire.markdown)
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur [https://dev-sensei.digicrafters.fr](https://dev-sensei.digicrafters.fr) par [Nathaniel Vaur Henel](https://dev-sensei.digicrafters.fr/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_

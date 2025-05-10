@@ -70,7 +70,7 @@ _Les métacaractères sont des caractères spéciaux ayant une signification par
 
 - `^` : Début de chaîne
 - `$` : Fin de chaîne ou fin de ligne
-- `.` : N’importe quel caractère
+- `.` : N'importe quel caractère
 - `|` : Ou (a|b pour a ou b)
 - `( )` : Délimiteur de groupe
 - `[ ]` : Délimiteur d'ensemble
@@ -145,7 +145,7 @@ Tu peux utiliser les groupes et les ensembles avec des [opérateurs de répétit
 - `[a-z]` : Lettre min. de a à z => 'a', 'b', 'c', 'd', 'e', 'f'
 - `[0-9]` : Entier (0 à 9) (\d) => '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
 - `[a-z0-9_]` : Lettre min. de a à z ou entier ou _ => 'a', 'b', 'A', 'B', '0', '1', '2', '_'
-- `[a-z’-]` : Lettre min. de a à z ou apostrophe ou tiret
+- `[a-z'-]` : Lettre min. de a à z ou apostrophe ou tiret
 ```
 
 :::
@@ -227,9 +227,9 @@ Bon, là, pas le choix, il faut des exemples efficaces !
 ### Fiches à télécharger
 
 Tu peux télécharger un aide-mémoire de ce Devento en :
-- [📥 Version PDF](regex_aide-mémoire.pdf)
-- [📥 Version Markdown](regex_aide-mémoire.markdown)
+- [📥 Version PDF](/devento/transverse/regex/regex_aide-mémoire.pdf)
+- [📥 Version Markdown](/devento/transverse/regex/regex_aide-mémoire.markdown)
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur [https://dev-sensei.digicrafters.fr](https://dev-sensei.digicrafters.fr) par [Nathaniel Vaur Henel](https://dev-sensei.digicrafters.fr/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_

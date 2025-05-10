@@ -13,7 +13,7 @@ date: 3000-12-31 # à supprimer dans les articles publiés
 > Intro qui sera visible dans la liste des articles.
 <!--truncate-->
 
-:::tip Dev sensei, raconte-moi une histoire
+:::tip Dev Sensei, raconte-moi une histoire
 
 > Raconte une anecdote 100% vraie qui a un rapport avec le sujet de l'article.
 
@@ -33,7 +33,7 @@ Et paf, ça fait des Chocabugs©.
 
 :::
 
-:::info L'astuce de ton dev sensei
+:::info L'astuce de ton Dev Sensei
 
 > Explication d'un truc cool qui fait des trucs cool.
 
@@ -73,7 +73,7 @@ J'espère que tu as appris des choses. Et j'espère que tu as envie d'en apprend
 
 Si tu as envie que j'explique plus en avant certains concepts ou que je parle de quelque chose en particulier, n'hésite pas à me le dire dans les commentaires.
 
-Pour ne pas rater les prochains articles, abonne-toi à un flux (tu as le choix entre [RSS](https://nathaniel-vaur-henel.github.io/blog/rss.xml), [Atom](https://nathaniel-vaur-henel.github.io/blog/atom.xml) et [Json](https://nathaniel-vaur-henel.github.io/blog/feeed.json)) ou à la newsletter en [page d'accueil](/) !
+Pour ne pas rater les prochains articles, abonne-toi à un flux (tu as le choix entre [RSS](https://dev-sensei.digicrafters.fr/blog/rss.xml), [Atom](https://dev-sensei.digicrafters.fr/blog/atom.xml) et [Json](https://dev-sensei.digicrafters.fr/blog/feeed.json)) ou à la newsletter en [page d'accueil](/) !
 
 Et bon entrainement ! 
 

@@ -261,7 +261,7 @@ this.http.get('https://api.exemple.com/data').subscribe(data => console.log(data
 
 ```typescript
 const sub = this.http.get('url').subscribe();
-sub.unsubscribe(); // Stoppe l’écoute
+sub.unsubscribe(); // Stoppe l'écoute
 ```
 
 ## Tests
@@ -303,4 +303,4 @@ Cela génère les fichiers optimisés dans le dossier `dist/`.
 
 ---
 
-_Cette fiche a été publiée en premier sur https://nathaniel-vaur-henel.github.io/ par [Nathaniel Vaur Henel](https://nathaniel-vaur-henel.github.io/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
+_Cette fiche a été publiée en premier sur [https://dev-sensei.digicrafters.fr](https://dev-sensei.digicrafters.fr) par [Nathaniel Vaur Henel](https://dev-sensei.digicrafters.fr/crafters/nathaniel-vaur-henel) sous licence [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)_
