@@ -1,0 +1,34 @@
+.columns {
+    column-count: 2;
+    column-gap: 2em;
+}
+
+.footer {
+    column-span: all;
+    margin-top: 2em;
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+h1, h2 {
+    color: darkred;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid DimGray;
+}
+
+th, td {
+    text-align: left;
+    padding: 1em;
+}
+
+@page {
+    margin: 1cm; /* ou 1in, 20mm, etc. */
+}
+
