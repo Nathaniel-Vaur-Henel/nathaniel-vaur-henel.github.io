@@ -4,8 +4,8 @@
   <ShortName>Nathaniel Vaur Henel, ton dév sensei</ShortName>
   <Description>Search Nathaniel Vaur Henel, ton dév sensei</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://nathaniel-vaur-henel.github.io/img/logo.png</Image>
-  <Url type="text/html" method="get" template="https://nathaniel-vaur-henel.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://nathaniel-vaur-henel.github.io/opensearch.xml" />
-  <moz:SearchForm>https://nathaniel-vaur-henel.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://dev-sensei.digicrafters.fr/img/logo.png</Image>
+  <Url type="text/html" method="get" template="https://dev-sensei.digicrafters.fr/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://dev-sensei.digicrafters.fr/opensearch.xml" />
+  <moz:SearchForm>https://dev-sensei.digicrafters.fr/</moz:SearchForm>
 </OpenSearchDescription>
