@@ -134,10 +134,9 @@ subscription.unsubscribe(); // Stoppe l’écoute de l’Observable
 
 ### Fiches à télécharger
 
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](angular_rxjs_aide-mémoire.pdf)
-- [md](angular_rxjs_aide-mémoire.markdown)
-
+Tu peux télécharger un aide-mémoire de ce Devento en :
+- [📥 Version PDF](angular_rxjs_aide-mémoire.pdf)
+- [📥 Version Markdown](angular_rxjs_aide-mémoire.markdown)
 
 ---
 

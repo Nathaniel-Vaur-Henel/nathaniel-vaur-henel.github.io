@@ -321,9 +321,9 @@ Cela génère les fichiers optimisés dans le dossier `dist/`.
 
 ### Fiches à télécharger
 
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](angular_bases_aide-mémoire.pdf)
-- [md](angular_bases_aide-mémoire.markdown)
+Tu peux télécharger un aide-mémoire de ce Devento en :
+- [📥 Version PDF](angular_bases_aide-mémoire.pdf)
+- [📥 Version Markdown](angular_bases_aide-mémoire.markdown)-
 
 ---
 

@@ -208,9 +208,9 @@ Comme indiqué au fur et à mesure, les [Release Notes](https://www.oracle.com/j
 
 ### Fiches à télécharger
 
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](java11_17_aide-mémoire.pdf)
-- [md](java11_17_aide-mémoire.markdown)
+Tu peux télécharger un aide-mémoire de ce Devento en :
+- [📥 Version PDF](java11_17_aide-mémoire.pdf)
+- [📥 Version Markdown](java11_17_aide-mémoire.markdown)
 
 ---
 

@@ -49,6 +49,55 @@ Utilisations des actions GitHub
 - Mets à jour les dépendances avec `npm update`.
 - Vérifie que tout fonctionne correctement.
 
+
+## Génération des aide-mémoires
+
+On utilise le script [create-cheat-sheet.py](.build/create-cheat-sheet.py) pour générer le fichier de départ des aide-mémoires.
+
+### 🎯 But
+
+Copier un aide-mémoire (`.markdown` et `.pdf`) associé à une fiche `index.md` vers le dossier `static/` pour qu’il soit servi sans hash dans Docusaurus.
+
+### 📥 Utilisation
+
+```bash
+python .build/create-cheat-sheet.py chemin/vers/index.md
+```
+
+**Exemple :**
+
+```bash
+python create-cheat-sheet.py devento/angular/00.bases/index.md
+```
+
+### 🔍 Comportement
+
+* Si un fichier `*_aide-mémoire.markdown` est présent :
+
+  * Il est copié tel quel.
+  * Son nom est conservé.
+
+* Sinon :
+
+  * `index.md` est copié et renommé en `<nom-du-dossier>_aide-mémoire.md`
+
+* Le PDF correspondant (même nom que le fichier `.md`) est aussi copié s’il existe.
+
+### 📦 Résultat
+
+Les fichiers sont copiés dans :
+
+```
+static/<chemin relatif depuis la racine du projet>/
+```
+
+### ℹ️ Logs
+
+* `✅ Fichier copié : ...`
+* `🔍 Aide-mémoire détecté : ...`
+* `🔸 Fichier déjà présent`
+* `⚠️  Fichier similaire (accents/casse) déjà présent`
+
 ## Génération des aides-mémoires en PDF
 
 Pour la génération des aide-mémoires en PDF, j'utilise https://md-to-pdf.fly.dev/ en passant la couleur en `darkred` et en conservant le moteur de conversion à weasyprint.

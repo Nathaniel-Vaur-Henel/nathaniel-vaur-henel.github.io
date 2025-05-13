@@ -187,9 +187,9 @@ Kafka est une solution moderne et robuste pour les entreprises ayant besoin de g
 
 ### Fiches à télécharger
 
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](kafka_aide-mémoire.pdf)
-- [md](kafka_aide-mémoire.markdown)
+Tu peux télécharger un aide-mémoire de ce Devento en :
+- [📥 Version PDF](kafka_aide-mémoire.pdf)
+- [📥 Version Markdown](kafka_aide-mémoire.markdown)
 
 ---
 

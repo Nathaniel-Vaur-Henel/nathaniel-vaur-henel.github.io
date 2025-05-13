@@ -116,9 +116,9 @@ SCREAMING_SNAKE_CASE : les mots sont séparés par des underscores et en majuscu
 
 ### Fiches à télécharger
 
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](casses_aide-mémoire.pdf)
-- [md](casses_aide-mémoire.markdown)
+Tu peux télécharger un aide-mémoire de ce Devento en :
+- [📥 Version PDF](casses_aide-mémoire.pdf)
+- [📥 Version Markdown](casses_aide-mémoire.markdown)
 
 ---
 

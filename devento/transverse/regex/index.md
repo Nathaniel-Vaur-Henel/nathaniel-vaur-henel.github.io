@@ -226,9 +226,9 @@ Bon, là, pas le choix, il faut des exemples efficaces !
 
 ### Fiches à télécharger
 
-Tu peux télécharger ce devento en plusieurs formats :
-- [pdf](regex_aide-mémoire.pdf)
-- [md](regex_aide-mémoire.markdown)
+Tu peux télécharger un aide-mémoire de ce Devento en :
+- [📥 Version PDF](regex_aide-mémoire.pdf)
+- [📥 Version Markdown](regex_aide-mémoire.markdown)
 
 ---
 
