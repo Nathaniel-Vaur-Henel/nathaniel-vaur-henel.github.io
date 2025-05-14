@@ -185,9 +185,9 @@ _avril 2015 - mai 2018 (3 ans et 1 mois)
 Versailles  
 Cosium développe des applications en lien avec l'audition et l'optique, de l'application de gestion à la prise de mesure oculaire en passant par l'essayage virtuel._
 
-##### Projet 1 : Responsable d’application "Virtual Try On Manager"
+##### Projet 1 : Responsable d'application "Virtual Try On Manager"
 
-Ce projet gère la banque d’images nécessaire à l’essayage virtuel de montures de plusieurs entreprises (prise de photo à la création d’une API d’essayage virtuel en temps réel en passant par la gestion d’accès multi-société).
+Ce projet gère la banque d'images nécessaire à l'essayage virtuel de montures de plusieurs entreprises (prise de photo à la création d'une API d'essayage virtuel en temps réel en passant par la gestion d'accès multi-société).
 
 - Création de webservices dont certains sont ouverts, avec filtrage par nom de domaine
 - Gestion des accès selon les sociétés
@@ -196,11 +196,11 @@ Ce projet gère la banque d’images nécessaire à l’essayage virtuel de mont
 
 ##### Projet 2 : Développeur de "Center"
 
-Ce projet, fondateur de l’entreprise, assure la gestion des magasins d’optique et d’audio, (employés, stocks, comptabilité, prise de rendez-vous, gestion clientèle et marketing, inventaire et authentification RFID, lecture de Carte Vitale, etc).  
+Ce projet, fondateur de l'entreprise, assure la gestion des magasins d'optique et d'audio, (employés, stocks, comptabilité, prise de rendez-vous, gestion clientèle et marketing, inventaire et authentification RFID, lecture de Carte Vitale, etc).  
 
 L'application est au cœur de la gestion de plusieurs grandes enseignes (Afflelou, Optical Center, Audition Santé, Visaudio, etc) et est utilisée à travers le monde (France, Pologne, Espagne, Italie, Canada, Israël, etc.)
 
-- Migration d’une architecture SQL classique et pages JSP en une architecture MVC
+- Migration d'une architecture SQL classique et pages JSP en une architecture MVC
 - Interfaçage avec des WebServices externes comme ceux des complémentaires de santé, des banques ou de la Sécurité Sociale
 - Conception et développement de nouvelles fonctionnalités
 - Gestion du secret médical
