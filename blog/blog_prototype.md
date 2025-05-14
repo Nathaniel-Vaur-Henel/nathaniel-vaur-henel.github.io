@@ -69,19 +69,19 @@ Voici quelques liens pour approfondir les sujets abordés dans cet article en at
 
 > Résumer les parties, une phrase par partie.
 
-J'espère que tu as appris des choses. Et j'espère que tu as envie d'en apprendre encore plus. Parce que c'est pas fini. Et je te donne rendez-vous dans le prochain article pour `teaser le prochain article`.
+---
 
-Si tu as envie que j'explique plus en avant certains concepts ou que je parle de quelque chose en particulier, n'hésite pas à me le dire dans les commentaires.
+Merci d'avoir pris le temps de lire cet article ! J'espère qu'il t'aura été utile et que tu as appris quelque chose de nouveau.
+
+Si tu as envie que j'explique plus avant certains concepts ou que je parle de quelque chose en particulier, n'hésite pas à me le dire dans les commentaires.
 
 Pour ne pas rater les prochains articles, abonne-toi à un flux (tu as le choix entre [RSS](https://dev-sensei.digicrafters.fr/blog/rss.xml), [Atom](https://dev-sensei.digicrafters.fr/blog/atom.xml) et [Json](https://dev-sensei.digicrafters.fr/blog/feeed.json)) ou à la newsletter en [page d'accueil](/) !
-
-Et bon entrainement ! 
 
 > Voilà, tu as fini ton article ! 
 > Pense à : 
 > - mettre un   devant tous le ! ? et :
 > - supprimer la ligne draft dans le frontmatter
-> - mettre la date du jour dans le frontmatter
+> - mettre la date du jour dans le nom du fichier
 > - activer les commentaires si besoin dans le frontmatter avec `enableComments: true`
 > - vérifier que le slug est unique
 > - vérifier que les tags sont bons
