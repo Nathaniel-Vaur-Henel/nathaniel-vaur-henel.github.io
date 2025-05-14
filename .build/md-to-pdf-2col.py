@@ -65,7 +65,7 @@ def convert_to_pdf(md_path):
     with CSS_FILE.open("r", encoding="utf-8") as f:
         css_content = f.read()
 
-    # Envoyer à l’API
+    # Envoyer à l'API
     response = requests.post(
         API_URL,
         data={

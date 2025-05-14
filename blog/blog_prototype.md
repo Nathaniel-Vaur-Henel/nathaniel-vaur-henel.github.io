@@ -25,11 +25,11 @@ date: 3000-12-31 # à supprimer dans les articles publiés
 
 :::
 
-:::warning Attention aux Chocabugs !
+:::warning Attention aux Chocabugs© !
 
 > Explication d'un truc pas cool qui fait des bugs.
 
-Et paf, ça fait des Chocabugs©.
+_Et paf, ça fait des Chocabugs©._
 
 :::
 

@@ -56,7 +56,7 @@ On utilise le script [create-cheat-sheet.py](.build/create-cheat-sheet.py) pour 
 
 ### 🎯 But
 
-Copier un aide-mémoire (`.markdown` et `.pdf`) associé à une fiche `index.md` vers le dossier `static/` pour qu’il soit servi sans hash dans Docusaurus.
+Copier un aide-mémoire (`.markdown` et `.pdf`) associé à une fiche `index.md` vers le dossier `static/` pour qu'il soit servi sans hash dans Docusaurus.
 
 ### 📥 Utilisation
 
@@ -81,7 +81,7 @@ python create-cheat-sheet.py devento/angular/00.bases/index.md
 
   * `index.md` est copié et renommé en `<nom-du-dossier>_aide-mémoire.md`
 
-* Le PDF correspondant (même nom que le fichier `.md`) est aussi copié s’il existe.
+* Le PDF correspondant (même nom que le fichier `.md`) est aussi copié s'il existe.
 
 ### 📦 Résultat
 
