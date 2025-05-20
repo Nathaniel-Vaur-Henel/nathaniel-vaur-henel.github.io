@@ -52,6 +52,8 @@ _Et paf, ça fait des Chocabugs©._
 
 ### Sous Partie 2.2
 
+## Bonnes pratiques / Astuce / À retenir
+
 ## Pour aller plus loin
 
 Voici quelques liens pour approfondir les sujets abordés dans cet article en attendant le prochain article !
@@ -79,7 +81,6 @@ Pour ne pas rater les prochains articles, abonne-toi à un flux (tu as le choix 
 
 > Voilà, tu as fini ton article ! 
 > Pense à : 
-> - mettre un   devant tous le ! ? et :
 > - supprimer la ligne draft dans le frontmatter
 > - mettre la date du jour dans le nom du fichier
 > - activer les commentaires si besoin dans le frontmatter avec `enableComments: true`
@@ -87,5 +88,6 @@ Pour ne pas rater les prochains articles, abonne-toi à un flux (tu as le choix 
 > - vérifier que les tags sont bons
 > - vérifier que le titre est bon
 > - vérifier que le nom de l'auteur est bon
-> - vérifier que le nom du fichier est bon, avec la date de parution 
-> - 
+> - vérifier que le nom du fichier est bon, avec la date de parution
+> - FAIRE RELIRE
+> - mettre un   devant tous le ! ? et :

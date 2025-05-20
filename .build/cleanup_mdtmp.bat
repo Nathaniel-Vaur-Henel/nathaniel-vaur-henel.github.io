@@ -1,3 +1,5 @@
+chcp 65001 >nul
+
 @echo off
 echo Suppression des fichiers .mdtmp en cours...
 
