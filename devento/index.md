@@ -48,7 +48,13 @@ Pourtant...
 - ne pas relire tout le web à chaque fois que tu as un trou, c'est mieux
 
 D'où mon idée de créer des **fiches techniques ultra ciblées** pour ne pas m'encombrer le cerveau et gagner en efficacité.
-Et bonne nouvelle, ça fonctionne sur le cerveau de tout le monde !
+Bonne nouvelle, le cerveau humain adore ça, peu importe sa version ou son modèle !
+
+:::tip Voir un exemple
+Tu veux voir à quoi ressemble un Devento "en vrai" ?  
+[Découvre une fiche ici](/devento/transverse/cases).
+:::
+
 
 ## Les Deventos, un outil simple et efficace
 
@@ -71,6 +77,11 @@ Une profusion de liens te sera donnée, notamment vers [Wikipédia](https://fr.w
 
 Les Deventos sont aussi une **technique de travail** et d'apprentissage déclinable à l'envie, sur tous types de sujets. À toi de te les approprier !
 
+:::tip Crée tes propres Deventos
+Tu veux utiliser ce format pour ton apprentissage ou avec tes élèves ?  
+Vas-y, c’est fait pour ! Et si tu veux partager ton travail, n’hésite pas à [me contacter](mailto:dev-sensei@digicrafters.fr) 😉
+:::
+
 ## Les Deventos, la productivité au service de tous
 
 ### Les Deventos, des outils universels
@@ -92,8 +103,20 @@ Des supports en français permettent de gagner du temps et d'éviter les erreurs
 
 Je suis l'auteur principal des Deventos. Mais mon projet est aussi collaboratif ! Je ferai intervenir d'autres auteurs sur les sujets qui dépassent mon expertise.
 
-Si tu as des idées de nouveaux sujets, n'hésite à passer sur le [github](https://github.com/Nathaniel-Vaur-Henel/nathaniel-vaur-henel.github.io) du site afin de poster une issue ou même pourquoi une PR !
+Si tu as des idées de nouveaux sujets, n'hésite pas à passer sur le [github](https://github.com/Nathaniel-Vaur-Henel/nathaniel-vaur-henel.github.io) du site afin de poster une issue ou même pourquoi une PR !
 
 Si tu te mets à écrire tes propres Deventos, tu peux les partager avec la communauté ! N'hésite pas à me contacter ;)
 
 Devento est de plus un projet open source. J'y tiens !
+
+## Envie d’aller plus loin ?
+
+:::tip Voir un exemple
+Curieux de voir un Devento ?  
+👉 [Celui sur les types de casse](/devento/transverse/cases) est parfait pour commencer !
+:::
+
+:::info Contribuer, suggérer, créer ?
+Tu as une idée de fiche ? Tu veux corriger ou proposer un nouveau sujet ?
+Passe sur le [GitHub du projet](https://github.com/Nathaniel-Vaur-Henel/nathaniel-vaur-henel.github.io) et propose une PR ou une issue !
+:::
