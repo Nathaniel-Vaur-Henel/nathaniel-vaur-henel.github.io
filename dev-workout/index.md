@@ -1,7 +1,7 @@
 ---
 sidebar_position: 0
 id: index
-title: Introduction
+title: Dev Workout, commence ton entrainement !
 # pour ajouter des tags à la page
 tags:
   - dev workout
@@ -37,7 +37,7 @@ Pour t'entrainer :
 - **soit tu te mets en mode projet** 
 
 Cela dépend de ta motivation et de ton objectif.  
-Et sur le [Discord](02.discord.md), tu partages tes questions, tes idées, tes avancées, tes blocages, etc. Et la communauté t'aide à avancer et à te garder motivé !
+Et sur le [Discord](01.discord.md), tu partages tes questions, tes idées, tes avancées, tes blocages, etc. Et la communauté t'aide à avancer et à te garder motivé !
 
 ## Où trouver des exercices ?
 
@@ -58,7 +58,7 @@ Un conseil tout de même. **Si tu es débutant, commence par un projet réalisab
 
 ## Où trouver des idées de side project ?
 
-Tu trouveras des idées de side projects classiques dans la fiche [Idées de side project](01.idees-side-project.md).
+Tu trouveras des idées de side projects classiques dans la fiche [Idées de side project](02.idees-side-project.md).
 
 Mais le mieux est de chercher autour de toi la bonne idée :
 
@@ -70,7 +70,7 @@ Mais le mieux est de chercher autour de toi la bonne idée :
 
 ## Et si je n'ai toujours pas de projet ?
 
-C'est là que la communauté entre en jeu. Sur le [Discord](02.discord.md), tu trouveras d'autres devs qui ont déjà des projets et qui seraient très heureux d'avoir un avis extérieur ou un coup de main.  
+C'est là que la communauté entre en jeu. Sur le [Discord](01.discord.md), tu trouveras d'autres devs qui ont déjà des projets et qui seraient très heureux d'avoir un avis extérieur ou un coup de main.  
 **Alors n'hésite pas à proposer ton aide, ou à demander de l'aide. C'est aussi ça la communauté.**
 
 ## Prêt pour rejoindre le Discord Dév Workout ?
