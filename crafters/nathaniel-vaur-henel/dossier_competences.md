@@ -28,10 +28,11 @@ Je peux aussi assurer les rôles de développeur expert ou formateur, même si j
 
 #### Compétences clés
 
-- Java
-- Framework Spring
+- Java 21 et +
+- Framework Spring / Hibernate
 - Développement de services Backend
 - SQL
+- AIDD (Artificial Intelligence Driven Development)
 
 #### Autres compétences techniques
 
@@ -49,34 +50,50 @@ Coaching d'équipe Agile
 Animation d'ateliers
 
 
-## Expériences Professionnelles
+## Freelance et fondateur de DigiCrafters
 
-### DigiCrafters
+Fort de 20 ans d'expérience dans le développement, j'ai créé ma propre entreprise afin de développer différentes activités. Grâce à mon expérience, j'accompagne mes clients dans leurs projets de développement, que ce soit en tant que tech leader ou développeur expert.
+J'interviens aussi auprès d'entreprises et d'écoles d'ingénieurs afin d'accompagner les équipes et les étudiants dans leur montée en compétences techniques et méthodologiques.
 
-#### Fondateur et dirigeant de DigiCrafters
-
-Fort de 20 ans d'expérience dans le développement, j'ai créé ma propre entreprise afin de développer différentes activités.
-
-#### Consultant expert java  
+### Consultant expert java et tech leader
 
 _Depuis septembre 2024  
 Nantes_
 
 J'accompagne mes clients en leur apportant mon expertise autant pour leurs évolutions techniques que la progression de leurs équipes de développement.
 
-#### Intervenant en école supérieure d'informatique
+#### Client dans le domaine du transport  
+En tant que tech leader transverse à plusieurs équipes dans un contexte multi projets, j'accompagne les collaborateurs juniors à expérimentés afin de :  
+- Mettre en place les bonnes pratiques de développement et assurer la qualité du code produit : revue de code, tests unitaires, documentation, etc.
+- Faire des choix d'architecture pertinents au regard du parc applicatif existant et des besoins métiers
+- Assurer la montée en compétences des équipes, la plupart des collaborateurs étant récemment reconvertis
+- Assurer la communication entre les équipes et les différents acteurs du projet, techniques et métiers  
+
+> **Compétences** : Java 17 & 21, IntelliJ IDEA, Framework Spring, PostgreSQL, JavaScript, Agilité, Software Craftsmanship, Web Services, Angular, Gestion de projet technique, Architecture web, Product Ownership, Jira/confluence, formateur web, Formation, CI/CD, Git, Gitlab, JUnit, Sonar, SonarQube, AssertJ, Mockito, MockMvc, Docusaurus, JSON, Open API
+
+#### Client dans le domaine bancaire   
+En tant que tech leader d'une équipe multi-technologies, j'assure la cohérence technique des développements et la qualité de la documentation afin de :
+- faciliter la maintenance applicative grâce à des choix techniques pertinents (ex : choix d'un systeme de messaging pour découpler les applications)
+- préparer de futures évolutions majeures (passage de cobol à java d'applications core banking)  
+
+> **Compétences** : Java, Framework Spring, IntelliJ IDEA, usine logicielle interne, Jira/confluence, Gitlab, Git, Sonarqube, leadership, accompagnement des équipes
+
+### Intervenant en école supérieure d'informatique
 
 _Depuis l'année scolaire 2023/2024  
 Nantes_  
 
-Interventions auprès d'étudiants en bachelor et master (ESGI - Groupe Eductive ; Ynov) 
+#### ESGI - Groupe Eductive et Ynov
 
-Que ce soit lors d'interventions classiques (cours magistral + TD) ou lors de coachings personnalisés / de  groupes, j'apporte aux étudiants mon expertise technique et méthodologique ainsi que ma connaissance des attentes du monde professionnel.
+Que ce soit lors d'interventions classiques (cours magistral + TD) ou lors d'ateliers, de coachings personnalisés / de groupes, j'apporte aux étudiants mon expertise technique et méthodologique ainsi que ma connaissance des attentes du monde professionnel.
 
+- Développement java (du B1 au M2)
 - Développement mobile avec Android.
-- Développement java.
 - Gestion de projet agile/scrum.
-- Découverte de l'entrepreneuriat
+
+
+## Expériences Professionnelles antérieures
+
 
 ### SNCF
 
