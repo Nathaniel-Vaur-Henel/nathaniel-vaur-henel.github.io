@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 import requests
 
-API_URL = "https://md-to-pdf.fly.dev"
+API_URL = "https://md-to-pdf.labs.synelia.tech/"
 CSS_FILE = Path(__file__).parent / "md-to-pdf.css"
 
 def process_markdown(filepath):

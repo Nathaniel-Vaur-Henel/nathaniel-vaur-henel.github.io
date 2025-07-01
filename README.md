@@ -58,6 +58,11 @@ On utilise le script [create-cheat-sheet.py](.build/create-cheat-sheet.py) pour 
 
 Copier un aide-mémoire (`.markdown` et `.pdf`) associé à une fiche `index.md` vers le dossier `static/` pour qu'il soit servi sans hash dans Docusaurus.
 
+### 🛠️ Pré-requis
+
+- Python 3.x
+- il faut intaller le package `requests` via `pip install requests`.
+
 ### 📥 Utilisation
 
 ```bash
@@ -100,7 +105,7 @@ static/<chemin relatif depuis la racine du projet>/
 
 ## Génération des aides-mémoires en PDF
 
-Pour la génération des aide-mémoires en PDF, j'utilise https://md-to-pdf.fly.dev/ en passant la couleur en `darkred` et en conservant le moteur de conversion à weasyprint.
+Pour la génération des aide-mémoires en PDF, j'utilise https://md-to-pdf.fly.dev/ ou https://md-to-pdf.labs.synelia.tech/ en passant la couleur en `darkred` et en conservant le moteur de conversion à weasyprint.
 
 ### Automatisation
 
