@@ -7,7 +7,7 @@ description: Nathaniel Vaur Henel, dossier de compétences
 
 _Télécharger au format [PDF](./Nathaniel_Vaur_Henel-dossier_competences.pdf)_
 
-## Freelance Formateur, Tech leader et Expert Java
+## Freelance Formateur, Tech leader, Lead Dev et Expert Java
 
 _Disponible sur Nantes et périphérie, ou en full remote_
 
@@ -55,7 +55,7 @@ Animation d'ateliers
 Fort de 20 ans d'expérience dans le développement, j'ai créé ma propre entreprise afin de développer différentes activités. Grâce à mon expérience, j'accompagne mes clients dans leurs projets de développement, que ce soit en tant que tech leader ou développeur expert.
 J'interviens aussi auprès d'entreprises et d'écoles d'ingénieurs afin d'accompagner les équipes et les étudiants dans leur montée en compétences techniques et méthodologiques.
 
-### Consultant expert java et tech leader
+### Consultant expert Java et tech leader
 
 _Depuis septembre 2024  
 Nantes_
@@ -74,7 +74,7 @@ En tant que tech leader transverse à plusieurs équipes dans un contexte multi 
 #### Client dans le domaine bancaire   
 En tant que tech leader d'une équipe multi-technologies, j'assure la cohérence technique des développements et la qualité de la documentation afin de :
 - faciliter la maintenance applicative grâce à des choix techniques pertinents (ex : choix d'un systeme de messaging pour découpler les applications)
-- préparer de futures évolutions majeures (passage de cobol à java d'applications core banking)  
+- préparer de futures évolutions majeures (passage de cobol à Java d'applications core banking)  
 
 > **Compétences** : Java, Framework Spring, IntelliJ IDEA, usine logicielle interne, Jira/confluence, Gitlab, Git, Sonarqube, leadership, accompagnement des équipes
 
@@ -87,7 +87,7 @@ Nantes_
 
 Que ce soit lors d'interventions classiques (cours magistral + TD) ou lors d'ateliers, de coachings personnalisés / de groupes, j'apporte aux étudiants mon expertise technique et méthodologique ainsi que ma connaissance des attentes du monde professionnel.
 
-- Développement java (du B1 au M2)
+- Développement Java (du B1 au M2)
 - Développement mobile avec Android.
 - Gestion de projet agile/scrum.
 
@@ -111,7 +111,7 @@ Au sein de ce plateau, composé de 300 personnes, j'étais responsable des missi
 ##### En tant que Tech Leader et Product Owner
 
 - Développement d'une application modulable de gestion des données des collaborateurs
-- Conception de l'architecture de l'application dans un souci de modularité en java/angular
+- Conception de l'architecture de l'application dans un souci de modularité en Java/angular
 - Interface technique/métier et rédaction de "user stories"
 - Animation des retrospectives Scrum
 - Encadrement d'une équipe de 7 développeurs juniors
@@ -129,7 +129,7 @@ Au sein de ce plateau, composé de 300 personnes, j'étais responsable des missi
 
 ### Maisons du Monde
 
-####  Tech leader java
+####  Tech leader Java
 
 **Commerce de Détail**  
 _octobre 2020 - février 2023 (2 ans et 5 mois)  
@@ -191,7 +191,7 @@ J'avais comme mission d'assurer la reprise, et l'amélioration des fonctionnalit
 - Participation aux comités de pilotage du projet
 - Migration des équipes vers IntelliJ suite à un POC
 
-> **Compétences** : JAVA/JEE, java 11, IntelliJ, Spring, Web Services, XML, IntelliJ IDEA, SOAP UI, Swing
+> **Compétences** : JAVA/JEE, Java 11, IntelliJ, Spring, Web Services, XML, IntelliJ IDEA, SOAP UI, Swing
 
 ### Cosium
 
@@ -234,7 +234,7 @@ _septembre 2007 - avril 2015 (7 ans et 7 mois)
 Meudon-la-Forêt_  
 
 ISCSC est une PME développant des logiciels pour la gestion du suivi de production dans le domaine automobile.
-En tant développeur java, j'étais en charge de l'évolution et de la maintenance de divers logiciels de l'entreprise.
+En tant développeur Java, j'étais en charge de l'évolution et de la maintenance de divers logiciels de l'entreprise.
 
 > **Compétences** : Java 6, MySQL, PostgreSQL, XML-RPC, PHP, Swing, Netbeans, SVN.
 
