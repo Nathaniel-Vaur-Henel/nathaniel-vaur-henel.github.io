@@ -55,3 +55,7 @@
   width: 1em;
   height: auto;
 }
+
+a:not([class]) {
+  font-weight: bold;
+}
