@@ -51,19 +51,35 @@ Animation d'ateliers
 
 
 ## Freelance et fondateur de DigiCrafters
+_Depuis septembre 2024_
 
 Fort de 20 ans d'expérience dans le développement, j'ai créé ma propre entreprise afin de développer différentes activités. Grâce à mon expérience, j'accompagne mes clients dans leurs projets de développement, que ce soit en tant que tech leader ou développeur expert.
 J'interviens aussi auprès d'entreprises et d'écoles d'ingénieurs afin d'accompagner les équipes et les étudiants dans leur montée en compétences techniques et méthodologiques.
 
-### Consultant expert Java et tech leader
-
-_Depuis septembre 2024  
-Nantes_
-
 J'accompagne mes clients en leur apportant mon expertise autant pour leurs évolutions techniques que la progression de leurs équipes de développement.
 
-#### Client dans le domaine du transport  
-En tant que tech leader transverse à plusieurs équipes dans un contexte multi projets, j'accompagne les collaborateurs juniors à expérimentés afin de :  
+
+### e.SNCF Solutions  
+
+#### Tech leader / Architecte technique
+
+**Transports**  
+_octobre 2024 - novembre 2025 (1 an et 1 mois)  
+Nantes
+Interventions sur plusieurs applications dédiées aux agents de la SNCF_
+
+##### Projet 1 : Expert technique sur une application de gestion (problématiques de sécurité et d'historisation)  
+Projet 100% autonome
+
+- Recueil du besoin
+- Définition de l'architecture de l'application
+- Développement de l'application
+- Tests unitaires
+- Intégration
+
+##### Projet 2 : En tant que tech leader transverse à plusieurs équipes dans un contexte multi projets
+J'accompagne les collaborateurs juniors à expérimentés afin de :  
+
 - Mettre en place les bonnes pratiques de développement et assurer la qualité du code produit : revue de code, tests unitaires, documentation, etc.
 - Faire des choix d'architecture pertinents au regard du parc applicatif existant et des besoins métiers
 - Assurer la montée en compétences des équipes, la plupart des collaborateurs étant récemment reconvertis
@@ -71,40 +87,32 @@ En tant que tech leader transverse à plusieurs équipes dans un contexte multi 
 
 > **Compétences** : Java 17 & 21, IntelliJ IDEA, Framework Spring, PostgreSQL, JavaScript, Agilité, Software Craftsmanship, Web Services, Angular, Gestion de projet technique, Architecture web, Product Ownership, Jira/confluence, formateur web, Formation, CI/CD, Git, Gitlab, JUnit, Sonar, SonarQube, AssertJ, Mockito, MockMvc, Docusaurus, JSON, Open API
 
-#### Client dans le domaine bancaire   
-En tant que tech leader d'une équipe multi-technologies, j'assure la cohérence technique des développements et la qualité de la documentation afin de :
-- faciliter la maintenance applicative grâce à des choix techniques pertinents (ex : choix d'un systeme de messaging pour découpler les applications)
-- préparer de futures évolutions majeures (passage de cobol à Java d'applications core banking)  
+### ESGI - Groupe Eductive et Ynov
 
-> **Compétences** : Java, Framework Spring, IntelliJ IDEA, usine logicielle interne, Jira/confluence, Gitlab, Git, Sonarqube, leadership, accompagnement des équipes
+#### Formateur / Intervenant
 
-### Intervenant en école supérieure d'informatique
-
-_Depuis l'année scolaire 2023/2024  
-Nantes_  
-
-#### ESGI - Groupe Eductive et Ynov
+**Ecoles d'informatique**  
+_Depuis l'année scolaire 2023  
+Nantes_
 
 Que ce soit lors d'interventions classiques (cours magistral + TD) ou lors d'ateliers, de coachings personnalisés / de groupes, j'apporte aux étudiants mon expertise technique et méthodologique ainsi que ma connaissance des attentes du monde professionnel.
 
 - Développement Java (du B1 au M2)
 - Développement mobile avec Android.
 - Gestion de projet agile/scrum.
+- Outillage
 
+## Expériences professionnelles antérieures
 
-## Expériences Professionnelles antérieures
-
-
-### SNCF
+### e.SNCF Solutions
 
 #### Tech leader / Développeur senior / formateur, Java
 
 **Transports**  
 _mars 2023 - juin 2024 (1 an et 3 mois)  
-Nantes  
-Formateur / Tech leader_
+Nantes
+La SNCF accompagne la reconversion professionnelle de ses salariés en leur proposant de rejoindre un programme de formation aux métiers du développement informatique._    
 
-La SNCF accompagne la reconversion professionnelle de ses salariés en leur proposant de rejoindre un programme de formation aux métiers du développement informatique.  
 À la suite de leur formation, les développeurs rejoignent différents projets et plateaux, et notamment le plateau D2D.  
 Au sein de ce plateau, composé de 300 personnes, j'étais responsable des missions suivantes :
 
