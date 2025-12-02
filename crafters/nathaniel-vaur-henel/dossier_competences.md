@@ -241,7 +241,7 @@ L'application est au cœur de la gestion de plusieurs grandes enseignes (Afflelo
 _septembre 2007 - avril 2015 (7 ans et 7 mois)  
 Meudon-la-Forêt_  
 
-ISCSC est une PME développant des logiciels pour la gestion du suivi de production dans le domaine automobile.
+ICDSC est une PME développant des logiciels pour la gestion du suivi de production dans le domaine automobile.
 En tant développeur Java, j'étais en charge de l'évolution et de la maintenance de divers logiciels de l'entreprise.
 
 > **Compétences** : Java 6, MySQL, PostgreSQL, XML-RPC, PHP, Swing, Netbeans, SVN.
