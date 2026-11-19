@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fr" dir="ltr" class="mdx-wrapper mdx-page plugin-pages plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Guide d&#x27;utilisation de GlanceRuns | Nathaniel Vaur Henel, ton dév sensei</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://dev-sensei.digicrafters.fr/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://dev-sensei.digicrafters.fr/img/social-card.png"><meta data-rh="true" property="og:url" content="https://dev-sensei.digicrafters.fr/glance-runs/user-guide.fr"><meta data-rh="true" property="og:locale" content="fr"><meta data-rh="true" name="docusaurus_locale" content="fr"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="fr"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Guide d&#x27;utilisation de GlanceRuns | Nathaniel Vaur Henel, ton dév sensei"><meta data-rh="true" name="description" content="Comment installer, promouvoir des Run Configurations et utiliser GlanceRuns dans votre IDE."><meta data-rh="true" property="og:description" content="Comment installer, promouvoir des Run Configurations et utiliser GlanceRuns dans votre IDE."><link data-rh="true" rel="icon" href="/img/logo.svg"><link data-rh="true" rel="canonical" href="https://dev-sensei.digicrafters.fr/glance-runs/user-guide.fr"><link data-rh="true" rel="alternate" href="https://dev-sensei.digicrafters.fr/glance-runs/user-guide.fr" hreflang="fr"><link data-rh="true" rel="alternate" href="https://dev-sensei.digicrafters.fr/glance-runs/user-guide.fr" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://GUSLMEOWUH-dsn.algolia.net" crossorigin="anonymous"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Nathaniel Vaur Henel, ton dév sensei RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Nathaniel Vaur Henel, ton dév sensei Atom Feed">
+<link rel="alternate" type="application/json" href="/blog/feed.json" title="Nathaniel Vaur Henel, ton dév sensei JSON Feed">
+
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" title="Nathaniel Vaur Henel, ton dév sensei" href="/opensearch.xml">
+
+
+
+<link rel="icon" type="image/png" href="/img/logo.png"><link rel="stylesheet" href="/assets/css/styles.096895fe.css">
+<script src="/assets/js/runtime~main.0bf1a217.js" defer="defer"></script>
+<script src="/assets/js/main.23148110.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.svg"><div role="region" aria-label="Aller au contenu principal"><a class="skipToContent_U9sA" href="#__docusaurus_skipToContent_fallback">Aller au contenu principal</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Ouvrir/fermer la barre de navigation" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="nvh" class="themedComponent_rwMo themedComponent--light_Zu_Y"><img src="/img/logo.svg" alt="nvh" class="themedComponent_rwMo themedComponent--dark_MQwi"></div><b class="navbar__title text--truncate">Nathaniel Vaur Henel</b></a><a class="navbar__item navbar__link" href="/devento">Devento</a><a class="navbar__item navbar__link" href="/dev-workout">Dév Workout</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/crafters/nathaniel-vaur-henel">L&#x27;équipe</a><div class="navbarSearchContainer_8CBl"><button type="button" class="DocSearch DocSearch-Button" aria-label="Chercher (Command+K)"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Chercher</span></span><span class="DocSearch-Button-Keys"></span></button></div><a class="navbar__item navbar__link" href="/devento/tags">Tags Devento</a><a href="https://github.com/Nathaniel-Vaur-Henel" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_IdLh colorModeToggle_t2cL"><button class="clean-btn toggleButton_qxH1 toggleButtonDisabled_Frm4" type="button" disabled="" title="Basculer entre le mode sombre et clair (actuellement mode clair)" aria-label="Basculer entre le mode sombre et clair (actuellement mode clair)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_U3RU"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_fWIQ"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_q8by"><main class="container container--fluid margin-vert--lg"><div class="row mdxPageWrapper_H7U1"><div class="col col--8"><article><p>🇬🇧 <a href="/glance-runs/user-guide">Read in English</a></p>
+<header><h1>Guide d&#x27;utilisation de GlanceRuns</h1></header>
+<p>GlanceRuns transforme vos Run/Debug Configurations longues à exécuter en
+une mosaïque de cards de statut, pour toutes les surveiller d&#x27;un coup
+d&#x27;œil au lieu de garder une console grand format ouverte pour chacune.</p>
+<div class="theme-admonition theme-admonition-note admonition_z1FU alert alert--secondary"><div class="admonitionHeading_G2MD"><span class="admonitionIcon_Pp4w"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Ce que GlanceRuns n&#x27;est pas</div><div class="admonitionContent_xbqm"><p>GlanceRuns ne remplace pas le Run Manager natif, et ne copie jamais une
+Run Configuration. Chaque card <strong>référence</strong> une Run Configuration
+existante, résolue en direct à chaque lancement. Éditer ou renommer la
+configuration d&#x27;origine dans le dialog natif &quot;Run/Debug Configurations&quot;
+se répercute toujours sur sa card.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="ouvrir-le-tool-window">Ouvrir le tool window<a href="#ouvrir-le-tool-window" class="hash-link" aria-label="Lien direct vers Ouvrir le tool window" title="Lien direct vers Ouvrir le tool window">​</a></h2>
+<p>GlanceRuns ajoute un tool window, ancré en bas de l&#x27;IDE par défaut.
+Ouvrez-le depuis le bouton de la bande d&#x27;outils, ou via <strong>View | Tool
+Windows | GlanceRuns</strong> s&#x27;il est masqué.</p>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="ajouter-un-glancerun">Ajouter un GlanceRun<a href="#ajouter-un-glancerun" class="hash-link" aria-label="Lien direct vers Ajouter un GlanceRun" title="Lien direct vers Ajouter un GlanceRun">​</a></h2>
+<p>Une card promue s&#x27;appelle un <strong>GlanceRun</strong>. Trois façons d&#x27;en créer un :</p>
+<ol>
+<li>Cliquez sur <strong>+</strong> dans la barre d&#x27;outils du tool window et choisissez
+une Run/Debug Configuration existante dans la liste.</li>
+<li>Dans cette même liste, choisissez <strong>Nouvelle Run Configuration...</strong>
+pour ouvrir le dialog natif &quot;Edit Configurations...&quot;, créer le type de
+configuration de votre choix, et la voir promue automatiquement dès
+validation.</li>
+<li>Depuis n&#x27;importe où dans l&#x27;IDE, utilisez <strong>Tools | Promouvoir vers
+GlanceRun...</strong> sur une configuration existante — un second point
+d&#x27;accès à cette même liste.</li>
+</ol>
+<div class="theme-admonition theme-admonition-tip admonition_z1FU alert alert--success"><div class="admonitionHeading_G2MD"><span class="admonitionIcon_Pp4w"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Réutiliser plusieurs fois la même configuration</div><div class="admonitionContent_xbqm"><p>La même Run Configuration peut être promue plusieurs fois — pratique pour
+la lancer avec des valeurs de paramètres différentes, côte à côte (voir
+<a href="#lancer-avec-des-param%C3%A8tres">Lancer avec des paramètres</a> ci-dessous).
+Chaque copie a sa propre card, son propre nom, et ses propres valeurs
+mémorisées.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="lancer-arrêter-et-consulter-les-logs">Lancer, arrêter et consulter les logs<a href="#lancer-arrêter-et-consulter-les-logs" class="hash-link" aria-label="Lien direct vers Lancer, arrêter et consulter les logs" title="Lien direct vers Lancer, arrêter et consulter les logs">​</a></h2>
+<p>Chaque card affiche un bouton <strong>Run</strong> à l&#x27;état Idle, qui devient <strong>Stop</strong>
+dès qu&#x27;un process est actif — jamais les deux en même temps, et un second
+clic pendant qu&#x27;un lancement est déjà en cours est ignoré sans effet.</p>
+<ul>
+<li><strong>Run</strong> démarre le process (après l&#x27;exécution des tâches &quot;before
+launch&quot; configurées sur la Run Configuration, comme un Build — si l&#x27;une
+d&#x27;elles échoue, le GlanceRun passe <code>Failed</code> et rien n&#x27;est lancé).</li>
+<li><strong>Stop</strong> demande confirmation (&quot;Arrêter <em>&lt;nom&gt;</em> ?&quot;), puis
+interrompt le process.</li>
+<li><strong>Logs</strong>, ou un clic n&#x27;importe où sur le corps de la card, ouvre la
+<strong>vue agrandie</strong> : la sortie console complète (avec les vraies couleurs
+ANSI), un toggle <strong>soft wrap</strong>, et, une fois le run terminé, son code de
+sortie, sa durée et son heure de fin.</li>
+<li>La card elle-même n&#x27;affiche qu&#x27;un <strong>aperçu live de 7 lignes</strong> de la
+sortie, pour que plusieurs cards restent lisibles côte à côte.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="lancer-avec-des-paramètres">Lancer avec des paramètres<a href="#lancer-avec-des-paramètres" class="hash-link" aria-label="Lien direct vers Lancer avec des paramètres" title="Lien direct vers Lancer avec des paramètres">​</a></h2>
+<p>Si les <strong>Program arguments</strong> d&#x27;une Run Configuration contiennent un ou
+plusieurs placeholders, GlanceRuns vous demande leurs valeurs avant
+chaque lancement, plutôt que d&#x27;exécuter la commande telle quelle :</p>
+<div class="language-text codeBlockContainer_Dn2N theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_WUfw"><pre tabindex="0" class="prism-code language-text codeBlock_D6kK thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_ys9C"><span class="token-line" style="color:#393A34"><span class="token plain">deploy --version {{VERSION}} --env {{env-name}}</span><br></span></code></pre><div class="buttonGroup_WtB0"><button type="button" aria-label="Copier le code" title="Copier" class="clean-btn"><span class="copyButtonIcons_fsnB" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_O52q"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_VD4X"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>Un placeholder, c&#x27;est <code>{{</code> + un nom (lettres, chiffres, underscores et
+tirets — jamais de tiret en tête) + <code>}}</code>. Tout ce qui ne correspond pas
+à cette forme (syntaxe de gabarit d&#x27;un autre outil, espaces dans le
+nom...) reste littéral.</li>
+<li>Cliquer sur <strong>Run</strong> sur une card avec des placeholders ouvre un petit
+formulaire — un champ par placeholder, pré-rempli avec la <strong>dernière
+valeur utilisée sur cette card</strong> — avec les boutons <strong>Lancer</strong> /
+<strong>Annuler</strong>.</li>
+<li>Les valeurs sont mémorisées <strong>par card</strong>, jamais partagées entre cards
+ni entre configurations, même quand plusieurs cards promeuvent la même
+configuration sous-jacente.</li>
+<li>La Run Configuration d&#x27;origine n&#x27;est jamais modifiée : GlanceRuns la
+clone en mémoire, substitue les valeurs dans ce clone, puis exécute ce
+clone. Dans le Run Manager natif, la configuration garde ses
+placeholders littéraux.</li>
+</ul>
+<div class="theme-admonition theme-admonition-info admonition_z1FU alert alert--info"><div class="admonitionHeading_G2MD"><span class="admonitionIcon_Pp4w"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Périmètre actuel</div><div class="admonitionContent_xbqm"><p>Seul le champ <strong>Program arguments</strong> prend en charge les placeholders, et
+uniquement en texte libre — pas de listes déroulantes, cases à cocher ou
+sélecteurs de fichiers pour l&#x27;instant. Le working directory, les
+variables d&#x27;environnement et les VM options ne sont pas paramétrables
+dans cette version.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="statuts-dune-card">Statuts d&#x27;une card<a href="#statuts-dune-card" class="hash-link" aria-label="Lien direct vers Statuts d&#x27;une card" title="Lien direct vers Statuts d&#x27;une card">​</a></h2>
+<table><thead><tr><th>Statut</th><th>Signification</th></tr></thead><tbody><tr><td><strong>Idle</strong></td><td>Jamais lancée, ou terminée puis réinitialisée.</td></tr><tr><td><strong>Running</strong></td><td>Le process est actuellement actif.</td></tr><tr><td><strong>Success</strong></td><td>Terminée avec le code de sortie <code>0</code>.</td></tr><tr><td><strong>Failed</strong></td><td>Terminée avec un code de sortie non nul, ou n&#x27;a même pas pu démarrer.</td></tr><tr><td><strong>Stopped</strong></td><td>Interrompue volontairement, via le bouton <strong>Stop</strong>.</td></tr><tr><td><strong>Missing</strong></td><td>La Run Configuration référencée par cette card est introuvable.</td></tr></tbody></table>
+<p>Un statut est <strong>toujours</strong> déduit du vrai code de sortie du process —
+jamais deviné à partir du texte affiché dans les logs. Un test qui
+affiche volontairement &quot;ERROR&quot; tout en réussissant s&#x27;affichera bien en
+<code>Success</code>.</p>
+<p><code>Missing</code> vient se superposer au statut ci-dessus, il ne le remplace
+jamais : une card dont la configuration a disparu alors qu&#x27;elle était
+encore <code>Running</code> continue d&#x27;afficher <code>Running</code> (et reste arrêtable, ses
+logs restent lisibles) jusqu&#x27;à la fin réelle du process. Seule une card
+par ailleurs neutre (<code>Idle</code> ou <code>Stopped</code>) affiche directement <code>Missing</code>.</p>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="garder-le-lien-avec-sa-run-configuration">Garder le lien avec sa Run Configuration<a href="#garder-le-lien-avec-sa-run-configuration" class="hash-link" aria-label="Lien direct vers Garder le lien avec sa Run Configuration" title="Lien direct vers Garder le lien avec sa Run Configuration">​</a></h2>
+<p>Ouvrez <strong>⋮ | Paramètres du GlanceRun</strong> sur n&#x27;importe quelle card pour :</p>
+<ul>
+<li>Voir à quelle Run Configuration elle est liée (icône de type et nom
+courant), et accéder directement à ses réglages natifs via <strong>Éditer la
+configuration...</strong>.</li>
+<li>Activer/désactiver <strong>&quot;Synchroniser le nom du GlanceRun sur celui du
+Run&quot;</strong> (activé par défaut) : tant que c&#x27;est actif, renommer la Run
+Configuration renomme la card en conséquence. Désactivez pour donner à
+la card un nom indépendant.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="réorganiser-les-cards">Réorganiser les cards<a href="#réorganiser-les-cards" class="hash-link" aria-label="Lien direct vers Réorganiser les cards" title="Lien direct vers Réorganiser les cards">​</a></h2>
+<ul>
+<li><strong>Glisser-déposer</strong> n&#x27;importe quelle card vers une nouvelle position,
+quel que soit le mode d&#x27;affichage.</li>
+<li>Ou utilisez <strong>⋮ | Monter</strong> / <strong>Descendre</strong> pour une réorganisation au
+clavier.</li>
+<li>Faites défiler les modes d&#x27;affichage — <strong>Liste</strong>, <strong>2 colonnes</strong>, <strong>3
+colonnes</strong> — avec le bouton de disposition de la barre d&#x27;outils ; votre
+choix est mémorisé par projet.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="tout-lancer-dun-coup">Tout lancer d&#x27;un coup<a href="#tout-lancer-dun-coup" class="hash-link" aria-label="Lien direct vers Tout lancer d&#x27;un coup" title="Lien direct vers Tout lancer d&#x27;un coup">​</a></h2>
+<ul>
+<li><strong>Tout lancer</strong>, dans la barre d&#x27;outils, démarre tous les GlanceRun qui
+ne sont pas déjà en cours.</li>
+<li>Son menu déroulant, <strong>Options de &quot;Tout lancer&quot;</strong>, ajoute <strong>&quot;Tout
+lancer, y compris les GlanceRun en cours (relance)&quot;</strong> — arrête puis
+relance chaque card après confirmation.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="quand-une-run-configuration-disparaît">Quand une Run Configuration disparaît<a href="#quand-une-run-configuration-disparaît" class="hash-link" aria-label="Lien direct vers Quand une Run Configuration disparaît" title="Lien direct vers Quand une Run Configuration disparaît">​</a></h2>
+<p>Si vous supprimez une Run Configuration référencée par une ou plusieurs
+cards, GlanceRuns vous demande quoi faire des cards devenues orphelines :
+les <strong>garder</strong> (elles passent <code>Missing</code>, supprimables manuellement plus
+tard) ou les <strong>supprimer avec la configuration</strong>.</p>
+<p>Si une configuration à l&#x27;identité correspondante réapparaît plus tard
+(par exemple recréée avec le même nom), GlanceRuns demande confirmation
+avant de relier une card <code>Missing</code> à celle-ci — jamais de rattachement
+silencieux, puisque rien ne garantit qu&#x27;il s&#x27;agisse bien de &quot;la même&quot;
+configuration qu&#x27;avant.</p>
+<div class="theme-admonition theme-admonition-caution admonition_z1FU alert alert--warning"><div class="admonitionHeading_G2MD"><span class="admonitionIcon_Pp4w"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Fermer l&#x27;IDE avec des runs actifs</div><div class="admonitionContent_xbqm"><p>Si un GlanceRun est encore en cours à la fermeture de l&#x27;IDE, un
+avertissement vous prévient qu&#x27;il sera arrêté. Au redémarrage, une card
+qui était en cours s&#x27;affiche en <code>Idle</code>, avec une note indiquant qu&#x27;elle a
+été interrompue par la fermeture de l&#x27;IDE — GlanceRuns ne peut pas
+reprendre un process qui n&#x27;existe plus.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_o3lr" id="vie-privée">Vie privée<a href="#vie-privée" class="hash-link" aria-label="Lien direct vers Vie privée" title="Lien direct vers Vie privée">​</a></h2>
+<p>GlanceRuns ne collecte aucune donnée, n&#x27;envoie aucune télémétrie et ne
+fait aucun appel réseau de son propre fait — voir l&#x27;<a href="/glance-runs/EULA">End User License
+Agreement</a> pour la déclaration complète. Il ne fait que lire et référencer
+des données déjà présentes dans votre projet (vos Run/Debug
+Configurations) et écrit ses propres logs de fonctionnement dans le
+<code>idea.log</code> local de l&#x27;IDE.</p></article></div><div class="col col--2"><div class="tableOfContents_RiwD thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ouvrir-le-tool-window" class="table-of-contents__link toc-highlight">Ouvrir le tool window</a></li><li><a href="#ajouter-un-glancerun" class="table-of-contents__link toc-highlight">Ajouter un GlanceRun</a></li><li><a href="#lancer-arrêter-et-consulter-les-logs" class="table-of-contents__link toc-highlight">Lancer, arrêter et consulter les logs</a></li><li><a href="#lancer-avec-des-paramètres" class="table-of-contents__link toc-highlight">Lancer avec des paramètres</a></li><li><a href="#statuts-dune-card" class="table-of-contents__link toc-highlight">Statuts d&#39;une card</a></li><li><a href="#garder-le-lien-avec-sa-run-configuration" class="table-of-contents__link toc-highlight">Garder le lien avec sa Run Configuration</a></li><li><a href="#réorganiser-les-cards" class="table-of-contents__link toc-highlight">Réorganiser les cards</a></li><li><a href="#tout-lancer-dun-coup" class="table-of-contents__link toc-highlight">Tout lancer d&#39;un coup</a></li><li><a href="#quand-une-run-configuration-disparaît" class="table-of-contents__link toc-highlight">Quand une Run Configuration disparaît</a></li><li><a href="#vie-privée" class="table-of-contents__link toc-highlight">Vie privée</a></li></ul></div></div></div></main></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Contenus</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/devento">Devento</a></li><li class="footer__item"><a class="footer__link-item" href="/dev-workout">Dev Workout</a></li><li class="footer__item"><div class="footer-blog-container">                        <div class="footer-blog-text"><a href="/blog" class="footer__link-item">Blog</a></div>                        <div class="footer-blog-images">                             <a href="/blog/rss.xml"><img src="/img/flux-rss.png" alt="Flux RSS"></a>                             <a href="/blog/atom.xml"><img src="/img/flux-atom.svg" alt="Flux Atom"></a>                             <a href="/blog/feed.json"><img src="/img/feed-json.svg" alt="Flux JSON"></a>                             <img>                             <img>                             <img>                         </div>                      </div></li></ul></div><div class="col footer__col"><div class="footer__title">Mes outils</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/glance-runs">GlanceRuns</a></li></ul></div><div class="col footer__col"><div class="footer__title">Me retrouver</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/nathaniel-vaur-henel/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://framagit.org/nathvh/me" target="_blank" rel="noopener noreferrer" class="footer__link-item">Framagit<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.malt.fr/profile/nathanielvaurhenel" target="_blank" rel="noopener noreferrer" class="footer__link-item">Malt<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Me soutenir</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://paypal.me/NathanielVaurHenel?country.x=FR&amp;locale.x=fr_FR" target="_blank" rel="noopener noreferrer" class="footer__link-item">Via Paypal<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.buymeacoffee.com/nathanielvh" target="_blank" rel="noopener noreferrer" class="footer__link-item">Via buymeacoffee.com<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://ko-fi.com/nathanielvaurhenel" target="_blank" rel="noopener noreferrer" class="footer__link-item">Via ko-fi.com<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Crédits</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.flaticon.com/fr/auteurs/smashicons" target="_blank" rel="noopener noreferrer" class="footer__link-item">Image Devento par Smashicons<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.flaticon.com/fr/auteurs/freepik" target="_blank" rel="noopener noreferrer" class="footer__link-item">Image Blog par Freepik<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_B476"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Nathaniel Vaur Henel. Built with <a href="https://docusaurus.io/" target="_about" class="footer__link-item">Docusaurus</a>, 💻, ☕, 💪🏾 and 🖤.</div></div></div></footer></div>
+</body>
+</html>
