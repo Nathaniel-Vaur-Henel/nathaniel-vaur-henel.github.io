@@ -49,7 +49,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: '/devento/',
+          routeBasePath: "/devento/",
           path: "devento",
           showLastUpdateTime: true,
         },
@@ -120,8 +120,12 @@ const config = {
           { to: "/dev-workout", label: "Dév Workout", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
 
-          { to: "/crafters/nathaniel-vaur-henel", label: "L'équipe", position: "right" },
-          { type: "search", position: "right"},
+          {
+            to: "/crafters/nathaniel-vaur-henel",
+            label: "L'équipe",
+            position: "right",
+          },
+          { type: "search", position: "right" },
           { to: "/devento/tags", label: "Tags Devento", position: "right" },
           {
             href: "https://github.com/Nathaniel-Vaur-Henel",
@@ -156,7 +160,16 @@ const config = {
                             <img /> \
                         </div> \
                      </div>',
-              }
+              },
+            ],
+          },
+          {
+            title: "Mes outils",
+            items: [
+              {
+                label: "GlanceRuns",
+                to: "/glance-runs",
+              },
             ],
           },
           {
@@ -167,8 +180,8 @@ const config = {
                 href: "https://www.linkedin.com/in/nathaniel-vaur-henel/",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/Nathaniel-Vaur-Henel",
+                label: "Framagit",
+                href: "https://framagit.org/nathvh/me",
               },
               {
                 label: "Malt",
@@ -215,11 +228,11 @@ const config = {
         additionalLanguages: ["java", "json", "http", "yaml", "sql"],
       },
       algolia: {
-        appId: 'GUSLMEOWUH',
-        apiKey: '6c401866b1a230b7ce35982f17f3de7e',
-        indexName: 'nathaniel-vaur-henelio',
+        appId: "GUSLMEOWUH",
+        apiKey: "6c401866b1a230b7ce35982f17f3de7e",
+        indexName: "nathaniel-vaur-henelio",
         contextualSearch: false,
-      }
+      },
     }),
   markdown: {
     format: "mdx",
