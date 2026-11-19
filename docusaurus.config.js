@@ -30,6 +30,20 @@ const config = {
     },
   ],
 
+  // Analytics Umami.
+  scripts: [
+    {
+      src: "https://umami.digicrafters.fr/script.js",
+      defer: true,
+      "data-website-id": "34e8b297-8afa-44d9-a73d-c5409910c0cb",
+    },
+    {
+      src: "https://umami.digicrafters.fr/recorder.js",
+      defer: true,
+      "data-website-id": "34e8b297-8afa-44d9-a73d-c5409910c0cb",
+    },
+  ],
+
   // Set the production url of your site here
   url: "https://dev-sensei.digicrafters.fr/",
   // Set the /<baseUrl>/ pathname under which your site is served
