@@ -29,6 +29,12 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Recherche Pagefind (src/theme/SearchBar) : html:root passe devant le :root du CSS injecté au runtime. */
+html:root {
+  --pf-font: var(--ifm-font-family-base);
+  --pf-outline-focus: var(--ifm-color-primary);
+}
+
 .wrapWords {
   white-space: normal;
   overflow-wrap: break-word;

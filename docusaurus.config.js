@@ -252,12 +252,6 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ["java", "json", "http", "yaml", "sql"],
       },
-      algolia: {
-        appId: "GUSLMEOWUH",
-        apiKey: "6c401866b1a230b7ce35982f17f3de7e",
-        indexName: "nathaniel-vaur-henelio",
-        contextualSearch: false,
-      },
     }),
   markdown: {
     format: "mdx",
