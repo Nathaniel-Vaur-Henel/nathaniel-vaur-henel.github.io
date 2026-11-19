@@ -109,6 +109,7 @@ Tous levés, voir « Réalisation ».
 - **Interface.** Modale ouverte par le bouton et Ctrl+K, résultats en français avec sous-résultats par section, liens vers `/devento/transverse/kafka#producers-producteurs`. Thème clair et sombre corrects, aucune erreur dans la console.
 - **Mobile.** Vérifié avec une iframe de 390 px (le redimensionnement de fenêtre de l'outil n'avait pas d'effet) : bouton icône seule, modale plein écran.
 - **Algolia.** Bloc `themeConfig.algolia` supprimé. `@docusaurus/theme-search-algolia` reste dans le lockfile (dépendance du preset classic) mais n'est plus chargé.
+- **Garde-fous.** À la fin de l'indexation, `.build/index-search.mjs` échoue (code 1, donc `pnpm build` et la CI aussi) si : moins de 20 pages sont indexées, une section (`/devento/`, `/dev-workout/`, `/crafters/`, `/blog/`) n'a aucune page, une page de navigation (tags, archive, auteurs, 404) s'est glissée dans l'index, ou si `pagefind-component-ui.js` est absent du bundle. Cela couvre le risque principal : un changement de classes CSS ou de routes dans une future version de Docusaurus. Chaque contrôle a été vérifié en le provoquant sur une copie du script. Les seuils sont des constantes en tête du script, à relever si le site grossit.
 - **Limites.** Pas de recherche avec `pnpm start`. Les pages anglaises de `glance-runs` sont indexées avec le français forcé. Les `typecheck` et diagnostics TypeScript de l'éditeur restent ceux d'avant (types React non résolus).
 
 ## Références
