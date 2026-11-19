@@ -17,7 +17,7 @@ La publication est planifiée grâce à [merge-schedule-action](https://github.c
 ### Lancer un server de test en local
 
 ```shell
-yarn run start
+pnpm start
 ```
 
 Lance un serveur local et ouvre la page dans le navigateur par défaut.
@@ -25,7 +25,7 @@ Lance un serveur local et ouvre la page dans le navigateur par défaut.
 ### Build
 
 ```shell
-yarn run build
+pnpm build
 ```
 
 Génère le contenu static dans le répertoire `build`.
@@ -33,7 +33,7 @@ Génère le contenu static dans le répertoire `build`.
 ### Lancement du site en local 
 
 ```shell
-yarn run serve
+pnpm serve
 ```
 
 Génère le contenu static dans le répertoire `build`.
@@ -46,7 +46,7 @@ Utilisations des actions GitHub
 
 - Installe [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) si ce n'est déjà fait.
 - Mets à jour le `package.json` avec `ncu --upgrade`.
-- Mets à jour les dépendances avec `npm update`.
+- Mets à jour les dépendances avec `pnpm install`.
 - Vérifie que tout fonctionne correctement.
 
 
