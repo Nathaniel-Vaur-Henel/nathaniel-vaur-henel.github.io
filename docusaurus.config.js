@@ -16,7 +16,19 @@ const config = {
   title: "Nathaniel Vaur Henel, ton dév sensei",
   tagline: "Deux décennies d'expérience pour t'aider à maîtriser ton dév",
 
-  favicon: "img/logo.png",
+  favicon: "img/logo.svg",
+
+  // Repli PNG pour les navigateurs qui ne supportent pas les favicons SVG (ex. Safari).
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "icon",
+        type: "image/png",
+        href: "/img/logo.png",
+      },
+    },
+  ],
 
   // Set the production url of your site here
   url: "https://dev-sensei.digicrafters.fr/",
@@ -103,12 +115,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/logo.png",
+      image: "img/social-card.png",
       navbar: {
         title: "Nathaniel Vaur Henel",
         logo: {
           alt: "nvh",
-          src: "img/logo.png",
+          src: "img/logo.svg",
         },
         items: [
           {
