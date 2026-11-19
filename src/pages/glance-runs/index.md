@@ -81,6 +81,8 @@ Install it straight from your IDE — **Settings \| Plugins \| Marketplace**,
 search for "GlanceRuns" — or visit its listing on the
 [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/36221-glanceruns/).
 
-Curious about the story behind it? Read the
-[launch announcement in French](/blog/glanceruns) on the blog, or jump straight into
-the [User Guide](/glance-runs/user-guide).
+[//]: # (Curious about the story behind it? Read the)
+
+[//]: # ([launch announcement in French]&#40;/blog/glanceruns&#41; on the blog, or jump straight into)
+
+[//]: # (the [User Guide]&#40;/glance-runs/user-guide&#41;.)
