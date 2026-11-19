@@ -10,6 +10,11 @@
   width: 200px;
 }
 
+/* Pictogrammes noirs sur fond transparent : en dark mode on inverse pour obtenir ≈ #d0d0d0 (couleur du texte). */
+[data-theme="dark"] .featureSvg {
+  filter: invert(0.82);
+}
+
 .featureCard {
   display: flex;
   flex-direction: column;

@@ -19,14 +19,65 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #c22525;
-  --ifm-color-primary-dark: #af2121;
-  --ifm-color-primary-darker: #a51f1f;
-  --ifm-color-primary-darkest: #881a1a;
-  --ifm-color-primary-light: #d52929;
-  --ifm-color-primary-lighter: #d83232;
-  --ifm-color-primary-lightest: #dd4f4f;
+  /* Rouge franc (pas rosé) : #ef4444 sur le fond #1b1b1d ≈ 4,6:1 (WCAG AA exige 4,5:1) */
+  --ifm-color-primary: #ef4444;
+  --ifm-color-primary-dark: #ec2a2a;
+  --ifm-color-primary-darker: #eb1c1c;
+  --ifm-color-primary-darkest: #c81212;
+  --ifm-color-primary-light: #f25e5e;
+  --ifm-color-primary-lighter: #f36d6d;
+  --ifm-color-primary-lightest: #f79595;
+
+  /* Texte adouci : #e3e3e3 (défaut Infima) éblouit sur fond sombre. #d0d0d0 ≈ 10:1, reste très lisible. */
+  --ifm-font-color-base: #d0d0d0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Admonitions : fonds sombres désaturés + texte adouci (les défauts Docusaurus sont des aplats vifs, texte quasi blanc).
+   La bordure gauche garde la couleur vive du type. Contrastes texte/fond ≥ 9:1.
+   Infima déclare ces variables sous html[data-theme='dark'] : même sélecteur obligatoire pour passer devant. */
+html[data-theme="dark"] {
+  --ifm-color-success-contrast-background: #16261b;
+  --ifm-color-success-contrast-foreground: #d0e2d4;
+  --ifm-color-info-contrast-background: #172830;
+  --ifm-color-info-contrast-foreground: #d0e2ea;
+  --ifm-color-warning-contrast-background: #2c2512;
+  --ifm-color-warning-contrast-foreground: #e6dcc2;
+  --ifm-color-danger-contrast-background: #2f1a1a;
+  --ifm-color-danger-contrast-foreground: #ecd2d2;
+  --ifm-color-secondary-contrast-background: #26262a;
+  --ifm-color-secondary-contrast-foreground: #d0d0d0;
+}
+
+/* Bandeau d'accueil : rouge profond + texte clair (le rouge vif sert au texte/liens, pas aux grands aplats).
+   .hero--primary redéfinit ces variables localement : il faut cibler le sélecteur, pas :root. */
+[data-theme="dark"] .hero--primary {
+  --ifm-hero-background-color: #8c1c1c;
+  --ifm-hero-text-color: #f2f2f2;
+}
+
+/* Footer (style "dark" dans la config) : le gris-bleu #303846 d'Infima jure avec la palette neutre/rouge du dark mode.
+   .footer--dark redéfinit ces variables localement : on cible le sélecteur, pas :root. */
+[data-theme="dark"] .footer--dark {
+  --ifm-footer-background-color: #121214;
+  --ifm-footer-link-color: #d0d0d0;
+  --ifm-footer-color: #d0d0d0;
+  --ifm-footer-title-color: #e6e6e6;
+}
+
+/* Commentaires du thème Dracula (#6272a4 sur #282a36 = 3:1, sous le seuil de 4,5:1).
+   prism-react-renderer applique la couleur en style inline : !important nécessaire. */
+[data-theme="dark"] .prism-code .token.comment {
+  color: #8b9bc4 !important;
+}
+
+/* Icônes de flux du footer : traits noirs / vert foncé, invisibles sur fond sombre (le footer est sombre dans les deux modes).
+   Pastille claire plutôt qu'un filtre pour garder leurs couleurs d'origine. */
+.footer-blog-images img[src] {
+  background: #e6e6e6;
+  border-radius: 4px;
+  padding: 2px;
+  box-sizing: content-box;
 }
 
 /* Recherche Pagefind (src/theme/SearchBar) : html:root passe devant le :root du CSS injecté au runtime. */
