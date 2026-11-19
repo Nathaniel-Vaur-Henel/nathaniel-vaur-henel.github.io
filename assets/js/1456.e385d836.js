@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[1456],{1456:(e,a,h)=>{h.d(a,{createArchitectureServices:()=>i.S});var i=h(3960);h(5409)}}]);
