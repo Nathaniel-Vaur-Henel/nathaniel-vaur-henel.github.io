@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[2615],{2615:(e,a,h)=>{h.d(a,{createWardleyServices:()=>i.J});var i=h(1072);h(9697)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknathaniel_vaur_henel_github_io=self.webpackChunknathaniel_vaur_henel_github_io||[]).push([[9790],{9448:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"crafters"}')}}]);
